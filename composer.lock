@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "a92c9b428485713d897b12d2c686c9e2",
+    "content-hash": "d97807905680a0e4744c330cb08c6897",
     "packages": [
         {
             "name": "nathanmac/parser",
