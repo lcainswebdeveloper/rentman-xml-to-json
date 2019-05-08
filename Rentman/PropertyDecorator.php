@@ -22,7 +22,22 @@ class PropertyDecorator
         $this->setRentorBuy();
         $this->transformed['ref_number'] = $this->setValueByKey('Refnumber');
         $this->transformed['location'] = $this->setLocation();
+        $this->transformed['type'] = $this->setType();
+        $this->transformed['commercial'] = $this->setCommercialBoolean();
         return $this->getTransformed();
+    }
+
+    public function setType()
+    {
+        return $this->propertyData['Type']['#text'] ?? '';
+    }
+
+    public function setCommercialBoolean()
+    {
+        $commercial = false;
+        if (strtolower($this->propertyData['Type']['@Commercial']) == 'true') {
+            return true;
+        }
     }
 
     protected function setLocation()

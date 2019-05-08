@@ -44,6 +44,11 @@ final class PropertyParseTest extends TestCase
 
         $this->assertEquals($prop1transformed['location'], $location);
         $this->assertEquals($prop2transformed['location'], $location2);
+        
+        $this->assertEquals($prop1transformed['commercial'], false);
+        $this->assertEquals($prop2transformed['commercial'], true);
+        $this->assertEquals($prop1transformed['type'], 'Conversion');
+        $this->assertEquals($prop2transformed['type'], 'Terrace');
     }
     // /** @test **/
     // public function we_should_be_able_to_create_an_issue_in_redmine()

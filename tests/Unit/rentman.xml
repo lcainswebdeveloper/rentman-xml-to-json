@@ -192,7 +192,7 @@ line]]>
 			<Postcode>TW20 9RP</Postcode>
 			<Area>Egham</Area>
 			<Tube></Tube>
-			<Type Commercial="False">Conversion</Type>
+			<Type Commercial="True">Terrace</Type>
 			<Beds>9.00</Beds>
 			<Singles>0.00</Singles>
 			<Doubles>9.00</Doubles>

@@ -15,5 +15,5 @@ function env($key)
 
 function prepr($arr)
 {
-    echo "<pre>".print_r($arr)."</pre>";
+    echo "<pre>".print_r($arr, 1)."</pre>";
 }
