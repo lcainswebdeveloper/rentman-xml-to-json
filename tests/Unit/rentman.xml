@@ -12,9 +12,7 @@
 			<Area>Egham</Area>
 			<Tube></Tube>
 			<Type Commercial="False">Conversion</Type>
-			<Beds>3.00</Beds>
-			<Singles>0.00</Singles>
-			<Doubles>3.00</Doubles>
+			<Beds>0.00</Beds>
 			<Rent Qualifier="1"></Rent>
 			<Saleprice Qualifier="1" Ownership="Freehold">500000.00</Saleprice>
 			<Tenantfees>

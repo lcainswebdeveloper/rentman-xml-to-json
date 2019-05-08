@@ -24,7 +24,29 @@ class PropertyDecorator
         $this->transformed['location'] = $this->setLocation();
         $this->transformed['type'] = $this->setType();
         $this->transformed['commercial'] = $this->setCommercialBoolean();
+        $this->transformed['bedrooms'] = $this->setBedRooms();
         return $this->getTransformed();
+    }
+
+    public function setBedrooms()
+    {
+        $bedrooms = [
+            'summary' => 'Studio Apartment',
+            'bedrooms' => 0,
+            'singles' =>  0,
+            'doubles' => 0,
+        ];
+        if (isset($this->propertyData['Singles'])) {
+            $bedrooms['singles'] = (int)$this->propertyData['Singles'];
+        }
+        if (isset($this->propertyData['Doubles'])) {
+            $bedrooms['doubles'] = (int)$this->propertyData['Doubles'];
+        }
+        if ($this->propertyData['Beds'] > 0) {
+            $bedrooms['summary'] = (int)$this->propertyData['Beds'].' Bedrooms';
+            $bedrooms['bedrooms'] = (int)$this->propertyData['Beds'];
+        }
+        return $bedrooms;
     }
 
     public function setType()
