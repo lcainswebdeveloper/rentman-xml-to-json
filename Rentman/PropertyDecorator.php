@@ -4,9 +4,9 @@ namespace Rentman;
 class PropertyDecorator
 {
     protected $propertyData;
-    public function __construct($propertyData)
+    protected $transformed = [];
+    public function __construct()
     {
-        $this->propertyData = $propertyData;
     }
 
     public function decorate()
@@ -20,14 +20,19 @@ class PropertyDecorator
         //             [Area] => Egham
         //             [Tube] =>
         $this->setRentorBuy();
-        return $this->propertyData;
+        $this->transformed['ref_number'] = $this->setValueByKey('Refnumber');
+        return $this->getTransformed();
+    }
+
+    public function setValueByKey($key)
+    {
+        return $this->propertyData[$key] ?? '';
     }
 
     public function setRentOrBuy($val = null)
     {
-        //$this->propertyData['Rentorbuy'] = 'N/A';
         if (isset($this->propertyData['Rentorbuy'])) {
-            $this->propertyData['Rentorbuy'] = $this->getRentOrBuyValue($this->propertyData['Rentorbuy']);
+            $this->transformed['rent_or_buy'] = $this->getRentOrBuyValue($this->propertyData['Rentorbuy']);
         }
         
         return $this;
@@ -41,5 +46,33 @@ class PropertyDecorator
             3 => 'For Sale and To Let',
         ];
         return $values[(int)$value] ?? 'Unknown';
+    }
+
+    /**
+     * Get the value of propertyData
+     */
+    public function getPropertyData()
+    {
+        return $this->propertyData;
+    }
+
+    /**
+     * Set the value of propertyData
+     *
+     * @return  self
+     */
+    public function setPropertyData($propertyData)
+    {
+        $this->propertyData = $propertyData;
+
+        return $this;
+    }
+
+    /**
+     * Get the value of transformed
+     */
+    public function getTransformed()
+    {
+        return $this->transformed;
     }
 }

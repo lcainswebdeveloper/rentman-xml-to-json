@@ -39,7 +39,9 @@ class Rentman
         ];
       
         foreach ($this->getParsedArrayData()['Properties']['Property'] as $property) {
-            $transformed['properties'][] = (new PropertyDecorator($property))->decorate();
+            $decorator = new PropertyDecorator();
+            $decorator->setPropertyData($property);
+            $transformed['properties'][] = $decorator->decorate();
         }
         return $transformed;
     }
