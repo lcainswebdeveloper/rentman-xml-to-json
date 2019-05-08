@@ -23,14 +23,27 @@ final class PropertyParseTest extends TestCase
         $this->assertEquals('To Let', $prop2transformed['rent_or_buy']);
         $this->assertEquals($prop1toriginal['Refnumber'], $prop1transformed['ref_number']);
         $this->assertEquals($prop2toriginal['Refnumber'], $prop2transformed['ref_number']);
-        /*
-        <Number>4</Number>
-    <Street>StoneyLands Road</Street>
-    <Address3>Egham</Address3>
-    <Address4>Surrey</Address4>
-    <Postcode>TW20 9QR</Postcode>
-    <Area>Egham</Area>
-    <Tube></Tube>*/
+        $location = [
+            'number' => $prop1toriginal['Number'],
+            'street' => $prop1toriginal['Street'],
+            'address3' => $prop1toriginal['Address3'],
+            'address4' => $prop1toriginal['Address4'],
+            'postcode' => $prop1toriginal['Postcode'],
+            'area' => $prop1toriginal['Area'],
+            'tube' => $prop1toriginal['Tube'],
+        ];
+        $location2 = [
+            'number' => $prop2toriginal['Number'],
+            'street' => $prop2toriginal['Street'],
+            'address3' => $prop2toriginal['Address3'],
+            'address4' => $prop2toriginal['Address4'],
+            'postcode' => $prop2toriginal['Postcode'],
+            'area' => $prop2toriginal['Area'],
+            'tube' => $prop2toriginal['Tube'],
+        ];
+
+        $this->assertEquals($prop1transformed['location'], $location);
+        $this->assertEquals($prop2transformed['location'], $location2);
     }
     // /** @test **/
     // public function we_should_be_able_to_create_an_issue_in_redmine()

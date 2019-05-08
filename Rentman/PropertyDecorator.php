@@ -21,7 +21,21 @@ class PropertyDecorator
         //             [Tube] =>
         $this->setRentorBuy();
         $this->transformed['ref_number'] = $this->setValueByKey('Refnumber');
+        $this->transformed['location'] = $this->setLocation();
         return $this->getTransformed();
+    }
+
+    protected function setLocation()
+    {
+        return [
+            'number' => $this->setValueByKey('Number'),
+            'street' => $this->setValueByKey('Street'),
+            'address3' => $this->setValueByKey('Address3'),
+            'address4' => $this->setValueByKey('Address4'),
+            'postcode' => $this->setValueByKey('Postcode'),
+            'area' => $this->setValueByKey('Area'),
+            'tube' => $this->setValueByKey('Tube'),
+        ];
     }
 
     public function setValueByKey($key)
