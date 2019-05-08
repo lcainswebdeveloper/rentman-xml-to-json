@@ -20,7 +20,7 @@ class PropertyDecorator
         //             [Area] => Egham
         //             [Tube] =>
         $this->setRentorBuy();
-        return $this->propertyData['Rentorbuy'];
+        return $this->propertyData;
     }
 
     public function setRentOrBuy($val = null)

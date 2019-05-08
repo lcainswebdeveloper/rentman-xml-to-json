@@ -11,7 +11,14 @@ final class PropertyParseTest extends TestCase
         
         $this->assertTrue(is_array($rentman->getParsedArrayData()));
         $transformed = $rentman->buildTransformedDataArray();
-        prepr($transformed);
+        $properties = $transformed['properties'];
+        //['Rentorbuy']
+        $prop1 = $properties[0];
+        $prop2 = $properties[1];
+        $this->assertEquals('For Sale', $prop1['Rentorbuy']);
+        $this->assertEquals('To Let', $prop2['Rentorbuy']);
+        prepr($prop2['Rentorbuy']);
+        //$prop2 = $properties[1];
         $this->assertTrue(true);
     }
     // /** @test **/
