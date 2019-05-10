@@ -25,6 +25,21 @@ class PropertyDecorator
         $this->transformed['type'] = $this->setType();
         $this->transformed['commercial'] = $this->setCommercialBoolean();
         $this->transformed['bedrooms'] = $this->setBedRooms();
+        $this->transformed['baths'] = $this->setValueByKey('Baths');
+        $this->transformed['receptions'] = $this->setValueByKey('Receps');
+        $this->transformed['furnished'] = $this->setValueByKey('Furnished');
+        $this->transformed['garage'] = $this->setValueByBooleanString('Garage');
+        $this->transformed['parking'] = $this->setValueByBooleanString('Parking');
+        $this->transformed['garden'] = $this->setValueByBooleanString('Garden');
+        $this->transformed['balcony'] = $this->setValueByBooleanString('Balcony');
+        $this->transformed['shower'] = $this->setValueByBooleanString('Shower');
+        $this->transformed['sep_wc'] = $this->setValueByBooleanString('Sep_wc');
+        $this->transformed['washing_machine'] = $this->setValueByBooleanString('Washmachine');
+        $this->transformed['dishwasher'] = $this->setValueByBooleanString('Dishwasher');
+        $this->transformed['burglar_alarm'] = $this->setValueByBooleanString('Burglaralarm');
+        $this->transformed['pets_allowed'] = $this->setValueByBooleanString('Petsallowed');
+        $this->transformed['smokers_allowed'] = $this->setValueByBooleanString('Smokersallowed');
+        
         return $this->getTransformed();
     }
 
@@ -56,10 +71,10 @@ class PropertyDecorator
 
     public function setCommercialBoolean()
     {
-        $commercial = false;
         if (strtolower($this->propertyData['Type']['@Commercial']) == 'true') {
             return true;
         }
+        return false;
     }
 
     protected function setLocation()
@@ -78,6 +93,14 @@ class PropertyDecorator
     public function setValueByKey($key)
     {
         return $this->propertyData[$key] ?? '';
+    }
+    
+    public function setValueByBooleanString($key)
+    {
+        if (isset($this->propertyData[$key])) {
+            return convertBooleanString($this->propertyData[$key]);
+        }
+        return false;
     }
 
     public function setRentOrBuy($val = null)

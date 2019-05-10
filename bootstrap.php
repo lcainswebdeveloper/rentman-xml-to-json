@@ -17,3 +17,11 @@ function prepr($arr)
 {
     echo "<pre>".print_r($arr, 1)."</pre>";
 }
+
+function convertBooleanString($boolString)
+{
+    if (strtolower($boolString) == 'true') {
+        return true;
+    }
+    return false;
+}

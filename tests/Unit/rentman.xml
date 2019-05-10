@@ -1,114 +1,99 @@
-<?xml version="1.0" encoding="iso-8859-1" ?>
-<Rentman Version="2.4" Agent="edsa" Password="" Date="20160809">
+<?xml version="1.0" encoding="iso-8859-1" ?> 
+<Rentman Version="2.6" Agent="" Password="" Date="20190510">
 	<Properties>
 		<Property>
-			<Rentorbuy>2.00</Rentorbuy>
-			<Refnumber>4.00</Refnumber>
-			<Number>4</Number>
-			<Street>StoneyLands Road</Street>
-			<Address3>Egham</Address3>
-			<Address4>Surrey</Address4>
-			<Postcode>TW20 9QR</Postcode>
-			<Area>Egham</Area>
+			<Rentorbuy>1.00</Rentorbuy>
+			<Refnumber>1150.00</Refnumber>
+			<Number>4th Floor Flat A, 3-5</Number>
+			<Street>St John St</Street>
+			<Address3></Address3>
+			<Address4>London</Address4>
+			<Postcode>EC1M 4AA</Postcode>
+			<Area>Farringdon</Area>
 			<Tube></Tube>
-			<Type Commercial="False">Conversion</Type>
+			<Type Commercial="False">Terrace</Type>
 			<Beds>0.00</Beds>
-			<Rent Qualifier="1"></Rent>
-			<Saleprice Qualifier="1" Ownership="Freehold">500000.00</Saleprice>
-			<Tenantfees>
-				<![CDATA[ + other fees may apply.]]>
-			</Tenantfees>
-			<Condition>0.00</Condition>
+			<Baths>2.00</Baths>
+			<Receps>1.00</Receps>
+			<Furnished>2.00</Furnished>
+			<Garage>False</Garage>
+			<Parking>False</Parking>
+			<Garden>False</Garden>
+			<Balcony>False</Balcony>
+			<Shower>True</Shower>
+			<Sep_wc>False</Sep_wc>
+			<Washmachine>True</Washmachine>
+			<Dishwasher>True</Dishwasher>
+			<Burglaralarm>False</Burglaralarm>
+			<Petsallowed>False</Petsallowed>
+			<Smokersallowed>False</Smokersallowed>
+			<Floor></Floor>
+			<Heating>ELECTRIC</Heating>
+			<Available>02/07/2019</Available>
+			<Status LetByUs="False" SoldByUs="False">Available</Status>
+			<Servicecharges></Servicecharges>
+			<Leaselength>0.00</Leaselength>
+			<Shortlet>False</Shortlet>
+			<Longlet>True</Longlet>
+			<Studentyear>False</Studentyear>
+			<Sharedcomm></Sharedcomm>
+			<Dssallowed>False</Dssallowed>
+			<Price Per="Month" Qualifier="1">2362</Price>
+			<Rent Qualifier="1" Period="Month">2362</Rent>
+			<Saleprice></Saleprice>
+			<Tenantfees><![CDATA[ + other fees may apply.
+]]></Tenantfees>
+			<Condition>4.00</Condition>
 			<Age></Age>
-			<Bulletpoints>
-				<BulletPoint>Conversion</BulletPoint>
-				<BulletPoint>3 Beds</BulletPoint>
-				<BulletPoint>Furnished</BulletPoint>
-				<BulletPoint>Gas Central Heating</BulletPoint>
-			</Bulletpoints>
-			<Other></Other>
-			<Description>
-				<![CDATA[property summary]]>
-			</Description>
-			<Comments>
-				<![CDATA[full property description]]>
-			</Comments>
-			<Strapline>
-				<![CDATA[3 Bed Furnished Conversion]]>
-			</Strapline>
-			<Rooms>
-				<Room>
-					<Title>Dining Room</Title>
-					<Location></Location>
-					<Description></Description>
-					<Imperial1>10.00</Imperial1>
-					<Imperial2>10.00</Imperial2>
-					<Metric1>3.05</Metric1>
-					<Metric2>3.05</Metric2>
-				</Room>
-				<Room>
-					<Title>Living Room</Title>
-					<Location></Location>
-					<Description></Description>
-					<Imperial1>10.00</Imperial1>
-					<Imperial2>10.00</Imperial2>
-					<Metric1>3.05</Metric1>
-					<Metric2>3.05</Metric2>
-				</Room>
-				<Room>
-					<Title>Bedroom 1</Title>
-					<Location></Location>
-					<Description></Description>
-					<Imperial1>8.00</Imperial1>
-					<Imperial2>8.00</Imperial2>
-					<Metric1>2.44</Metric1>
-					<Metric2>2.44</Metric2>
-				</Room>
-				<Room>
-					<Title>Bedroom 2</Title>
-					<Location></Location>
-					<Description></Description>
-					<Imperial1>8.00</Imperial1>
-					<Imperial2>10.00</Imperial2>
-					<Metric1>2.44</Metric1>
-					<Metric2>3.05</Metric2>
-				</Room>
-				<Room>
-					<Title>Bedroom 3</Title>
-					<Location></Location>
-					<Description></Description>
-					<Imperial1>8.00</Imperial1>
-					<Imperial2>8.00</Imperial2>
-					<Metric1>2.44</Metric1>
-					<Metric2>2.44</Metric2>
-				</Room>
-				<Room>
-					<Title>Bathroom 1</Title>
-					<Location></Location>
-					<Description></Description>
-					<Imperial1>8.00</Imperial1>
-					<Imperial2>12.00</Imperial2>
-					<Metric1>2.44</Metric1>
-					<Metric2>3.66</Metric2>
-				</Room>
-				<Room>
-					<Title>Conservatory</Title>
-					<Location></Location>
-					<Description></Description>
-					<Imperial1>6.00</Imperial1>
-					<Imperial2>8.00</Imperial2>
-					<Metric1>1.83</Metric1>
-					<Metric2>2.44</Metric2>
-				</Room>
-			</Rooms>
+			<Description><![CDATA[Stunning modern top floor two bedroom flat which has been finished to an extremely high standard with wooden flooring throughout. Amazing views of London and only a few moments walk to Farringdon tube station - available 2nd July 2019]]></Description>
+			<Comments><![CDATA[Comprising of:-<BR/><BR/>Two double bedrooms - both with fitted wardrobes<BR/>Modern fully fitted & equipped kitchen incl. full size fridge/freezer & combined washer/dryer<BR/>Open plan reception room<BR/>Fully tiled bathroom incl. heated towel rail<BR/>Wooden flooring throughout<BR/><BR/>Ideally located in the heart of London next to the famous Smithfields market & within walking distance to Farringdon Station.<BR/><BR/>This property is available 2nd July 2019, offered unfurnished for a long term rental.]]></Comments>
+			<Strapline><![CDATA[Studio]]></Strapline>
 			<Map></Map>
 			<Floorplan></Floorplan>
-			<Url>www.dotgomm.ca?4</Url>
-			<Created>28/05/2015</Created>
-			<Managed>False</Managed>
+			<Url>?1150</Url>
+			<Created>16/10/2018</Created>
+			<Managed>True</Managed>
+			<Epc>_1150_EPC.jpg</Epc>
+			<Branch></Branch>
+			<Branchtel></Branchtel>
+			<Evt></Evt>
+			<Featured>False</Featured>
+			<Brochure></Brochure>
+			<Gloc>51.5200583940916,-0.101951634593772</Gloc>
+			<Nearbyamenities></Nearbyamenities>
+			<Categoryid>0.00</Categoryid>
+			<Negotiatorname></Negotiatorname>
+			<Negotiatoremail></Negotiatoremail>
+			<Negotiatormobile></Negotiatormobile>
+			<Thoughts><![CDATA[]]></Thoughts>
+			<Media><Item Caption="">_1150_01.jpg</Item><Item Caption="">_1150_02.jpg</Item><Item Caption="">_1150_03.jpg</Item><Item Caption="">_1150_04.jpg</Item><Item Caption="">_1150_05.jpg</Item><Item Caption="">_1150_06.jpg</Item></Media><Other><Item Caption="">_1150_01.jpg</Item><Item Caption="">_1150_02.jpg</Item><Item Caption="">_1150_03.jpg</Item><Item Caption="">_1150_04.jpg</Item><Item Caption="">_1150_05.jpg</Item><Item Caption="">_1150_06.jpg</Item></Other><Bulletpoints><Bulletpoint>Flat</Bulletpoint>
+				<Bulletpoint>2 Beds</Bulletpoint>
+				<Bulletpoint>1 Reception</Bulletpoint>
+				<Bulletpoint>2 Bathrooms</Bulletpoint>
+				<Bulletpoint>Energy Rating : D</Bulletpoint>
+				<Bulletpoint>Unfurnished</Bulletpoint>
+				<Bulletpoint>Shower</Bulletpoint>
+				<Bulletpoint>Washing Machine</Bulletpoint>
+				<Bulletpoint>Dishwasher</Bulletpoint>
+			</Bulletpoints><Rooms></Rooms><Nearbyamenities></Nearbyamenities><Events>
+			</Events></Property>
+		<Property>
+			<Rentorbuy>1.00</Rentorbuy>
+			<Refnumber>1147.00</Refnumber>
+			<Number>Flat C, 5</Number>
+			<Street>Amhurst Road</Street>
+			<Address3></Address3>
+			<Address4>London</Address4>
+			<Postcode>E8 1LL</Postcode>
+			<Area>Hackney</Area>
+			<Tube></Tube>
+			<Type Commercial="True">Flat</Type>
+			<Beds>9.00</Beds>
+			<Singles>0.00</Singles>
+			<Doubles>9.00</Doubles>
 			<Baths>0.00</Baths>
 			<Receps>0.00</Receps>
-			<Furnished>1.00</Furnished>
+			<Furnished>0.00</Furnished>
 			<Garage>False</Garage>
 			<Parking>False</Parking>
 			<Garden>False</Garden>
@@ -121,9 +106,9 @@
 			<Petsallowed>False</Petsallowed>
 			<Smokersallowed>False</Smokersallowed>
 			<Floor></Floor>
-			<Heating></Heating>
-			<Available>24/03/2016</Available>
-			<Status LetByUs="False" SoldByUs="False">Available</Status>
+			<Heating>GCH</Heating>
+			<Available>04/10/2019</Available>
+			<Status LetByUs="True" SoldByUs="False">Unavailable</Status>
 			<Servicecharges></Servicecharges>
 			<Leaselength>0.00</Leaselength>
 			<Shortlet>False</Shortlet>
@@ -131,268 +116,79 @@
 			<Studentyear>False</Studentyear>
 			<Sharedcomm></Sharedcomm>
 			<Dssallowed>False</Dssallowed>
-			<Price Per="Month" Qualifier="0">433.00</Price>
-			<Rent Qualifier="0" Period="Month">433.00</Rent>
-			<Saleprice Qualifier="0" Ownership=""></Saleprice>
-			<Tenantfees>
-				<![CDATA[ + other fees may apply.]]>
-			</Tenantfees>
+			<Price Per="Month" Qualifier="1">1387</Price>
+			<Rent Qualifier="1" Period="Month">1387</Rent>
+			<Saleprice></Saleprice>
+			<Tenantfees><![CDATA[ + other fees may apply.
+]]></Tenantfees>
 			<Condition>0.00</Condition>
 			<Age></Age>
-			<Bulletpoints>
-				<BulletPoint>Conversion</BulletPoint>
-				<BulletPoint>Studio Flat</BulletPoint>
-				<BulletPoint>Furnished</BulletPoint>
-			</Bulletpoints>
-			<Other></Other>
-			<Description>
-				<![CDATA[oh what have we here and this on the next
-line..........]]>
-			</Description>
-			<Comments>
-				<![CDATA[oh what have we here<BR/>and this on the next
-line]]>
-			</Comments>
-			<Strapline>
-				<![CDATA[Studio]]>
-			</Strapline>
-			<Rooms></Rooms>
+			<Description><![CDATA[]]></Description>
+			<Comments><![CDATA[]]></Comments>
+			<Strapline><![CDATA[Studio]]></Strapline>
 			<Map></Map>
 			<Floorplan></Floorplan>
-			<Url>www.dotgomm.ca?3</Url>
-			<Created>04/10/2012</Created>
+			<Url>?1147</Url>
+			<Created>16/10/2018</Created>
 			<Managed>True</Managed>
-			<Epc>edsa_3_EPC.jpg</Epc>
-			<Branch>Nigel Testing</Branch>
+			<Epc>_1147_EPC.jpg</Epc>
+			<Branch></Branch>
 			<Branchtel></Branchtel>
-			<Media></Media>
 			<Evt></Evt>
 			<Featured>False</Featured>
 			<Brochure></Brochure>
-			<Gloc>51.554382,-0.169155</Gloc>
+			<Gloc>51.5471206363435,-0.0563033196428364</Gloc>
 			<Nearbyamenities></Nearbyamenities>
 			<Categoryid>0.00</Categoryid>
-			<Negotiatorname>Manager</Negotiatorname>
-			<Negotiatoremail>nigel@rnam.co.uk</Negotiatoremail>
-			<Negotiatormobile></Negotiatormobile>
-			<Thoughts>
-				<![CDATA[]]>
-			</Thoughts>
-			<Events></Events>
-		</Property>
-		<Property>
-			<Rentorbuy>1.00</Rentorbuy>
-			<Refnumber>1.00</Refnumber>
-			<Number>5</Number>
-			<Street>North Street</Street>
-			<Address3>Egham</Address3>
-			<Address4>Surrey</Address4>
-			<Postcode>TW20 9RP</Postcode>
-			<Area>Egham</Area>
-			<Tube></Tube>
-			<Type Commercial="True">Terrace</Type>
-			<Beds>9.00</Beds>
-			<Singles>0.00</Singles>
-			<Doubles>9.00</Doubles>
-			<Baths>0.00</Baths>
-			<Receps>0.00</Receps>
-			<Furnished>1.00</Furnished>
-			<Garage>False</Garage>
-			<Parking>False</Parking>
-			<Garden>False</Garden>
-			<Balcony>False</Balcony>
-			<Shower>False</Shower>
-			<Sep_wc>False</Sep_wc>
-			<Washmachine>False</Washmachine>
-			<Dishwasher>False</Dishwasher>
-			<Burglaralarm>False</Burglaralarm>
-			<Petsallowed>True</Petsallowed>
-			<Smokersallowed>False</Smokersallowed>
-			<Floor></Floor>
-			<Heating>GCH</Heating>
-			<Available>22/08/2016</Available>
-			<Status LetByUs="False" SoldByUs="False">Withdrawn</Status>
-			<Servicecharges></Servicecharges>
-			<Leaselength>0.00</Leaselength>
-			<Shortlet>False</Shortlet>
-			<Longlet>False</Longlet>
-			<Studentyear>False</Studentyear>
-			<Sharedcomm></Sharedcomm>
-			<Dssallowed>False</Dssallowed>
-			<Price Per="Month" Qualifier="0">5000.00</Price>
-			<Rent Qualifier="0" Period="Month">5000.00</Rent>
-			<Saleprice Qualifier="0" Ownership=""></Saleprice>
-			<Tenantfees>
-				<![CDATA[ + other fees may apply.]]>
-			</Tenantfees>
-			<Condition>0.00</Condition>
-			<Age></Age>
-			<Bulletpoints>
-				<BulletPoint>Conversion</BulletPoint>
-				<BulletPoint>9 Beds</BulletPoint>
-				<BulletPoint>Furnished</BulletPoint>
-				<BulletPoint>Pets Allowed</BulletPoint>
-				<BulletPoint>Gas Central Heating</BulletPoint>
-			</Bulletpoints>
-			<Other></Other>
-			<Description>
-				<![CDATA[..........]]>
-			</Description>
-			<Comments>
-				<![CDATA[]]>
-			</Comments>
-			<Strapline>
-				<![CDATA[Studio]]>
-			</Strapline>
-			<Rooms>
-				<Room>
-					<Title>Kitchen</Title>
-					<Location></Location>
-					<Description></Description>
-					<Imperial1>0.00</Imperial1>
-					<Imperial2>0.00</Imperial2>
-					<Metric1>0.00</Metric1>
-					<Metric2>0.00</Metric2>
-				</Room>
-				<Room>
-					<Title>Living/Dining Room</Title>
-					<Location></Location>
-					<Description></Description>
-					<Imperial1>0.00</Imperial1>
-					<Imperial2>0.00</Imperial2>
-					<Metric1>0.00</Metric1>
-					<Metric2>0.00</Metric2>
-				</Room>
-				<Room>
-					<Title>Bedroom 1</Title>
-					<Location></Location>
-					<Description></Description>
-					<Imperial1>0.00</Imperial1>
-					<Imperial2>0.00</Imperial2>
-					<Metric1>0.00</Metric1>
-					<Metric2>0.00</Metric2>
-				</Room>
-				<Room>
-					<Title>Bedroom 2</Title>
-					<Location></Location>
-					<Description></Description>
-					<Imperial1>0.00</Imperial1>
-					<Imperial2>0.00</Imperial2>
-					<Metric1>0.00</Metric1>
-					<Metric2>0.00</Metric2>
-				</Room>
-			</Rooms>
-			<Map></Map>
-			<Floorplan></Floorplan>
-			<Url>www.dotgomm.ca?1</Url>
-			<Created>22/04/2015</Created>
-			<Managed>False</Managed>
-			<Epc>edsa_1_EPC.jpg</Epc>
-			<Branch>Nigel Testing</Branch>
-			<Branchtel></Branchtel>
-			<Media></Media>
-			<Evt></Evt>
-			<Featured>False</Featured>
-			<Brochure>edsa_1_BRCH.pdf</Brochure>
-			<Gloc>51.428308,-0.551774</Gloc>
-			<Nearbyamenities>
-				<Amenity>
-					<id>2</id>
-					<Distance Unit="Miles">0.00</Distance>
-				</Amenity>
-				<Amenity>
-					<id>3</id>
-					<Distance Unit="Miles">0.00</Distance>
-				</Amenity>
-			</Nearbyamenities>
-			<Categoryid>0.00</Categoryid>
-			<Negotiatorname>webuser</Negotiatorname>
+			<Negotiatorname></Negotiatorname>
 			<Negotiatoremail></Negotiatoremail>
 			<Negotiatormobile></Negotiatormobile>
-			<Thoughts>
-				<![CDATA[]]>
-			</Thoughts>
-			<Events></Events>
-		</Property>
+			<Thoughts><![CDATA[]]></Thoughts>
+			<Media><Item Caption="">_1147_01.jpg</Item><Item Caption="">_1147_02.jpg</Item><Item Caption="">_1147_03.jpg</Item><Item Caption="">_1147_04.jpg</Item><Item Caption="">_1147_05.jpg</Item><Item Caption="">_1147_06.jpg</Item></Media><Other><Item Caption="">_1147_01.jpg</Item><Item Caption="">_1147_02.jpg</Item><Item Caption="">_1147_03.jpg</Item><Item Caption="">_1147_04.jpg</Item><Item Caption="">_1147_05.jpg</Item><Item Caption="">_1147_06.jpg</Item></Other><Bulletpoints><Bulletpoint>Flat</Bulletpoint>
+				<Bulletpoint>Studio Flat</Bulletpoint>
+			</Bulletpoints><Rooms></Rooms><Nearbyamenities></Nearbyamenities><Events>
+			</Events></Property>
 	</Properties>
 	<Areas>
 		<Area>
-			<Name>Egham</Name>
+			<Name>Bayswater</Name>
 		</Area>
 		<Area>
-			<Name>West Hampstead</Name>
+			<Name>Chancery Lane</Name>
 		</Area>
 		<Area>
-			<Name>Hampstead</Name>
+			<Name>Farringdon</Name>
 		</Area>
 		<Area>
-			<Name>Leytonstone</Name>
+			<Name>Wimbledon</Name>
+		</Area>
+		<Area>
+			<Name>Hackney</Name>
+		</Area>
+		<Area>
+			<Name>Great james street</Name>
+		</Area>
+		<Area>
+			<Name>Camden</Name>
+		</Area>
+		<Area>
+			<Name>Balham</Name>
+		</Area>
+		<Area>
+			<Name>Fulham</Name>
+		</Area>
+		<Area>
+			<Name>Paddington</Name>
+		</Area>
+		<Area>
+			<Name>Ealing</Name>
+		</Area>
+		<Area>
+			<Name>High Street Kensington</Name>
+		</Area>
+		<Area>
+			<Name>Holborn</Name>
 		</Area>
 	</Areas>
-	<Amenities>
-		<Amenity>
-			<Id>2</Id>
-			<Name>Forester&#39;s Arms</Name>
-			<Address>1 North Street, Egham, Surrey, TW20 9RP</Address>
-			<Telephone></Telephone>
-			<Email></Email>
-			<WWW></WWW>
-			<Gloc>51.428308,-0.551774</Gloc>
-			<Radius>1</Radius>
-			<Types>
-				<Type>Pub</Type>
-			</Types>
-		</Amenity>
-		<Amenity>
-			<Id>3</Id>
-			<Name>Strodes</Name>
-			<Address>High Street, Egham, , TW20 9DR</Address>
-			<Telephone></Telephone>
-			<Email></Email>
-			<WWW></WWW>
-			<Gloc>51.432516,-0.550317</Gloc>
-			<Radius>5</Radius>
-			<Types>
-				<Type>School</Type>
-			</Types>
-		</Amenity>
-	</Amenities>
-	<Categories>
-		<Category>
-			<Id>1.00</Id>
-			<Name>Residential</Name>
-		</Category>
-		<Category>
-			<Id>2.00</Id>
-			<Name>Commercial</Name>
-		</Category>
-		<Category>
-			<Id>3.00</Id>
-			<Name>Holiday Apartments</Name>
-		</Category>
-		<Category>
-			<Id>4.00</Id>
-			<Name>Buy to Let</Name>
-		</Category>
-		<Category>
-			<Id>5.00</Id>
-			<Name>Development</Name>
-		</Category>
-		<Category>
-			<Id>6.00</Id>
-			<Name>Other Investment</Name>
-		</Category>
-		<Category>
-			<Id>7.00</Id>
-			<Name>Industrial</Name>
-		</Category>
-		<Category>
-			<Id>8.00</Id>
-			<Name>Shop</Name>
-		</Category>
-		<Category>
-			<Id>9.00</Id>
-			<Name>Office</Name>
-		</Category>
-	</Categories>
+	<Amenities></Amenities>
 </Rentman>

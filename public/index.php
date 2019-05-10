@@ -4,7 +4,7 @@ use Nathanmac\Utilities\Parser\Parser as Parser;
 
 try {
     $parser = new Parser();
-    $xmlPath = __DIR__.'/../rentman.xml';
+    $xmlPath = __DIR__.'/../tests/Unit/rentman.xml';
     if (file_exists($xmlPath)) {
         $results = $parser->xml(file_get_contents($xmlPath));
         prepr($results);

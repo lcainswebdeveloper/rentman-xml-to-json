@@ -1,0 +1,409 @@
+<?xml version="1.0" encoding="iso-8859-1" ?> 
+<Rentman Version="2.6" Agent="" Password="" Date="20190510">
+	<Properties>
+		<Property>
+			<Rentorbuy>1.00</Rentorbuy>
+			<Refnumber>1150.00</Refnumber>
+			<Number>4th Floor Flat A, 3-5</Number>
+			<Street>St John St</Street>
+			<Address3></Address3>
+			<Address4>London</Address4>
+			<Postcode>EC1M 4AA</Postcode>
+			<Area>Farringdon</Area>
+			<Tube></Tube>
+			<Type Commercial="False">Flat</Type>
+			<Beds>2.00</Beds>
+			<Singles>0.00</Singles>
+			<Doubles>2.00</Doubles>
+			<Baths>2.00</Baths>
+			<Receps>1.00</Receps>
+			<Furnished>2.00</Furnished>
+			<Garage>False</Garage>
+			<Parking>False</Parking>
+			<Garden>False</Garden>
+			<Balcony>False</Balcony>
+			<Shower>True</Shower>
+			<Sep_wc>False</Sep_wc>
+			<Washmachine>True</Washmachine>
+			<Dishwasher>True</Dishwasher>
+			<Burglaralarm>False</Burglaralarm>
+			<Petsallowed>False</Petsallowed>
+			<Smokersallowed>False</Smokersallowed>
+			<Floor></Floor>
+			<Heating>ELECTRIC</Heating>
+			<Available>02/07/2019</Available>
+			<Status LetByUs="False" SoldByUs="False">Available</Status>
+			<Servicecharges></Servicecharges>
+			<Leaselength>0.00</Leaselength>
+			<Shortlet>False</Shortlet>
+			<Longlet>True</Longlet>
+			<Studentyear>False</Studentyear>
+			<Sharedcomm></Sharedcomm>
+			<Dssallowed>False</Dssallowed>
+			<Price Per="Month" Qualifier="1">2362</Price>
+			<Rent Qualifier="1" Period="Month">2362</Rent>
+			<Saleprice></Saleprice>
+			<Tenantfees><![CDATA[ + other fees may apply.
+]]></Tenantfees>
+			<Condition>4.00</Condition>
+			<Age></Age>
+			<Description><![CDATA[Stunning modern top floor two bedroom flat which has been finished to an extremely high standard with wooden flooring throughout. Amazing views of London and only a few moments walk to Farringdon tube station - available 2nd July 2019]]></Description>
+			<Comments><![CDATA[Comprising of:-<BR/><BR/>Two double bedrooms - both with fitted wardrobes<BR/>Modern fully fitted & equipped kitchen incl. full size fridge/freezer & combined washer/dryer<BR/>Open plan reception room<BR/>Fully tiled bathroom incl. heated towel rail<BR/>Wooden flooring throughout<BR/><BR/>Ideally located in the heart of London next to the famous Smithfields market & within walking distance to Farringdon Station.<BR/><BR/>This property is available 2nd July 2019, offered unfurnished for a long term rental.]]></Comments>
+			<Strapline><![CDATA[Studio]]></Strapline>
+			<Map></Map>
+			<Floorplan></Floorplan>
+			<Url>?1150</Url>
+			<Created>16/10/2018</Created>
+			<Managed>True</Managed>
+			<Epc>_1150_EPC.jpg</Epc>
+			<Branch></Branch>
+			<Branchtel></Branchtel>
+			<Evt></Evt>
+			<Featured>False</Featured>
+			<Brochure></Brochure>
+			<Gloc>51.5200583940916,-0.101951634593772</Gloc>
+			<Nearbyamenities></Nearbyamenities>
+			<Categoryid>0.00</Categoryid>
+			<Negotiatorname></Negotiatorname>
+			<Negotiatoremail></Negotiatoremail>
+			<Negotiatormobile></Negotiatormobile>
+			<Thoughts><![CDATA[]]></Thoughts>
+			<Media><Item Caption="">_1150_01.jpg</Item><Item Caption="">_1150_02.jpg</Item><Item Caption="">_1150_03.jpg</Item><Item Caption="">_1150_04.jpg</Item><Item Caption="">_1150_05.jpg</Item><Item Caption="">_1150_06.jpg</Item></Media><Other><Item Caption="">_1150_01.jpg</Item><Item Caption="">_1150_02.jpg</Item><Item Caption="">_1150_03.jpg</Item><Item Caption="">_1150_04.jpg</Item><Item Caption="">_1150_05.jpg</Item><Item Caption="">_1150_06.jpg</Item></Other><Bulletpoints><Bulletpoint>Flat</Bulletpoint>
+				<Bulletpoint>2 Beds</Bulletpoint>
+				<Bulletpoint>1 Reception</Bulletpoint>
+				<Bulletpoint>2 Bathrooms</Bulletpoint>
+				<Bulletpoint>Energy Rating : D</Bulletpoint>
+				<Bulletpoint>Unfurnished</Bulletpoint>
+				<Bulletpoint>Shower</Bulletpoint>
+				<Bulletpoint>Washing Machine</Bulletpoint>
+				<Bulletpoint>Dishwasher</Bulletpoint>
+			</Bulletpoints><Rooms></Rooms><Nearbyamenities></Nearbyamenities><Events>
+			</Events></Property>
+		<Property>
+			<Rentorbuy>1.00</Rentorbuy>
+			<Refnumber>1147.00</Refnumber>
+			<Number>Flat C, 5</Number>
+			<Street>Amhurst Road</Street>
+			<Address3></Address3>
+			<Address4>London</Address4>
+			<Postcode>E8 1LL</Postcode>
+			<Area>Hackney</Area>
+			<Tube></Tube>
+			<Type Commercial="False">Flat</Type>
+			<Beds>0.00</Beds>
+			<Singles>0.00</Singles>
+			<Doubles>0.00</Doubles>
+			<Baths>0.00</Baths>
+			<Receps>0.00</Receps>
+			<Furnished>0.00</Furnished>
+			<Garage>False</Garage>
+			<Parking>False</Parking>
+			<Garden>False</Garden>
+			<Balcony>False</Balcony>
+			<Shower>False</Shower>
+			<Sep_wc>False</Sep_wc>
+			<Washmachine>False</Washmachine>
+			<Dishwasher>False</Dishwasher>
+			<Burglaralarm>False</Burglaralarm>
+			<Petsallowed>False</Petsallowed>
+			<Smokersallowed>False</Smokersallowed>
+			<Floor></Floor>
+			<Heating>GCH</Heating>
+			<Available>04/10/2019</Available>
+			<Status LetByUs="True" SoldByUs="False">Unavailable</Status>
+			<Servicecharges></Servicecharges>
+			<Leaselength>0.00</Leaselength>
+			<Shortlet>False</Shortlet>
+			<Longlet>False</Longlet>
+			<Studentyear>False</Studentyear>
+			<Sharedcomm></Sharedcomm>
+			<Dssallowed>False</Dssallowed>
+			<Price Per="Month" Qualifier="1">1387</Price>
+			<Rent Qualifier="1" Period="Month">1387</Rent>
+			<Saleprice></Saleprice>
+			<Tenantfees><![CDATA[ + other fees may apply.
+]]></Tenantfees>
+			<Condition>0.00</Condition>
+			<Age></Age>
+			<Description><![CDATA[]]></Description>
+			<Comments><![CDATA[]]></Comments>
+			<Strapline><![CDATA[Studio]]></Strapline>
+			<Map></Map>
+			<Floorplan></Floorplan>
+			<Url>?1147</Url>
+			<Created>16/10/2018</Created>
+			<Managed>True</Managed>
+			<Epc>_1147_EPC.jpg</Epc>
+			<Branch></Branch>
+			<Branchtel></Branchtel>
+			<Evt></Evt>
+			<Featured>False</Featured>
+			<Brochure></Brochure>
+			<Gloc>51.5471206363435,-0.0563033196428364</Gloc>
+			<Nearbyamenities></Nearbyamenities>
+			<Categoryid>0.00</Categoryid>
+			<Negotiatorname></Negotiatorname>
+			<Negotiatoremail></Negotiatoremail>
+			<Negotiatormobile></Negotiatormobile>
+			<Thoughts><![CDATA[]]></Thoughts>
+			<Media><Item Caption="">_1147_01.jpg</Item><Item Caption="">_1147_02.jpg</Item><Item Caption="">_1147_03.jpg</Item><Item Caption="">_1147_04.jpg</Item><Item Caption="">_1147_05.jpg</Item><Item Caption="">_1147_06.jpg</Item></Media><Other><Item Caption="">_1147_01.jpg</Item><Item Caption="">_1147_02.jpg</Item><Item Caption="">_1147_03.jpg</Item><Item Caption="">_1147_04.jpg</Item><Item Caption="">_1147_05.jpg</Item><Item Caption="">_1147_06.jpg</Item></Other><Bulletpoints><Bulletpoint>Flat</Bulletpoint>
+				<Bulletpoint>Studio Flat</Bulletpoint>
+			</Bulletpoints><Rooms></Rooms><Nearbyamenities></Nearbyamenities><Events>
+			</Events></Property>
+		<Property>
+			<Rentorbuy>1.00</Rentorbuy>
+			<Refnumber>1142.00</Refnumber>
+			<Number>Flat 1a, 1</Number>
+			<Street>Amhurst Road</Street>
+			<Address3></Address3>
+			<Address4>London</Address4>
+			<Postcode>E8 1LL</Postcode>
+			<Area>Hackney</Area>
+			<Tube></Tube>
+			<Type Commercial="False">Flat</Type>
+			<Beds>0.00</Beds>
+			<Singles>0.00</Singles>
+			<Doubles>0.00</Doubles>
+			<Baths>0.00</Baths>
+			<Receps>0.00</Receps>
+			<Furnished>0.00</Furnished>
+			<Garage>False</Garage>
+			<Parking>False</Parking>
+			<Garden>False</Garden>
+			<Balcony>False</Balcony>
+			<Shower>False</Shower>
+			<Sep_wc>False</Sep_wc>
+			<Washmachine>False</Washmachine>
+			<Dishwasher>False</Dishwasher>
+			<Burglaralarm>False</Burglaralarm>
+			<Petsallowed>False</Petsallowed>
+			<Smokersallowed>False</Smokersallowed>
+			<Floor></Floor>
+			<Heating>GCH</Heating>
+			<Available>03/06/2019</Available>
+			<Status LetByUs="True" SoldByUs="False">Unavailable</Status>
+			<Servicecharges></Servicecharges>
+			<Leaselength>0.00</Leaselength>
+			<Shortlet>False</Shortlet>
+			<Longlet>False</Longlet>
+			<Studentyear>False</Studentyear>
+			<Sharedcomm></Sharedcomm>
+			<Dssallowed>False</Dssallowed>
+			<Price Per="Month" Qualifier="1">1257</Price>
+			<Rent Qualifier="1" Period="Month">1257</Rent>
+			<Saleprice></Saleprice>
+			<Tenantfees><![CDATA[ + other fees may apply.
+]]></Tenantfees>
+			<Condition>0.00</Condition>
+			<Age></Age>
+			<Description><![CDATA[]]></Description>
+			<Comments><![CDATA[]]></Comments>
+			<Strapline><![CDATA[Studio]]></Strapline>
+			<Map></Map>
+			<Floorplan></Floorplan>
+			<Url>?1142</Url>
+			<Created>16/10/2018</Created>
+			<Managed>True</Managed>
+			<Epc>_1142_EPC.jpg</Epc>
+			<Branch></Branch>
+			<Branchtel></Branchtel>
+			<Evt></Evt>
+			<Featured>False</Featured>
+			<Brochure></Brochure>
+			<Gloc>51.5471206363435,-0.0563033196428364</Gloc>
+			<Nearbyamenities></Nearbyamenities>
+			<Categoryid>0.00</Categoryid>
+			<Negotiatorname></Negotiatorname>
+			<Negotiatoremail></Negotiatoremail>
+			<Negotiatormobile></Negotiatormobile>
+			<Thoughts><![CDATA[]]></Thoughts>
+			<Media><Item Caption="">_1142_01.jpg</Item><Item Caption="">_1142_02.jpg</Item><Item Caption="">_1142_03.jpg</Item><Item Caption="">_1142_04.jpg</Item><Item Caption="">_1142_05.jpg</Item></Media><Other><Item Caption="">_1142_01.jpg</Item><Item Caption="">_1142_02.jpg</Item><Item Caption="">_1142_03.jpg</Item><Item Caption="">_1142_04.jpg</Item><Item Caption="">_1142_05.jpg</Item></Other><Bulletpoints><Bulletpoint>Flat</Bulletpoint>
+				<Bulletpoint>Studio Flat</Bulletpoint>
+			</Bulletpoints><Rooms></Rooms><Nearbyamenities></Nearbyamenities><Events>
+			</Events></Property>
+		<Property>
+			<Rentorbuy>1.00</Rentorbuy>
+			<Refnumber>1143.00</Refnumber>
+			<Number>Flat 1b, 1</Number>
+			<Street>Amhurst Road</Street>
+			<Address3></Address3>
+			<Address4>London</Address4>
+			<Postcode>E8 1LL</Postcode>
+			<Area>Hackney</Area>
+			<Tube></Tube>
+			<Type Commercial="False">Flat</Type>
+			<Beds>0.00</Beds>
+			<Singles>0.00</Singles>
+			<Doubles>0.00</Doubles>
+			<Baths>0.00</Baths>
+			<Receps>0.00</Receps>
+			<Furnished>0.00</Furnished>
+			<Garage>False</Garage>
+			<Parking>False</Parking>
+			<Garden>False</Garden>
+			<Balcony>False</Balcony>
+			<Shower>False</Shower>
+			<Sep_wc>False</Sep_wc>
+			<Washmachine>False</Washmachine>
+			<Dishwasher>False</Dishwasher>
+			<Burglaralarm>False</Burglaralarm>
+			<Petsallowed>False</Petsallowed>
+			<Smokersallowed>False</Smokersallowed>
+			<Floor></Floor>
+			<Heating>GCH</Heating>
+			<Available>28/07/2019</Available>
+			<Status LetByUs="True" SoldByUs="False">Unavailable</Status>
+			<Servicecharges></Servicecharges>
+			<Leaselength>0.00</Leaselength>
+			<Shortlet>False</Shortlet>
+			<Longlet>False</Longlet>
+			<Studentyear>False</Studentyear>
+			<Sharedcomm></Sharedcomm>
+			<Dssallowed>False</Dssallowed>
+			<Price Per="Month" Qualifier="1">1386</Price>
+			<Rent Qualifier="1" Period="Month">1386</Rent>
+			<Saleprice></Saleprice>
+			<Tenantfees><![CDATA[ + other fees may apply.
+]]></Tenantfees>
+			<Condition>0.00</Condition>
+			<Age></Age>
+			<Description><![CDATA[]]></Description>
+			<Comments><![CDATA[]]></Comments>
+			<Strapline><![CDATA[Studio]]></Strapline>
+			<Map></Map>
+			<Floorplan></Floorplan>
+			<Url>?1143</Url>
+			<Created>16/10/2018</Created>
+			<Managed>True</Managed>
+			<Epc>_1143_EPC.jpg</Epc>
+			<Branch></Branch>
+			<Branchtel></Branchtel>
+			<Evt></Evt>
+			<Featured>False</Featured>
+			<Brochure></Brochure>
+			<Gloc>,</Gloc>
+			<Nearbyamenities></Nearbyamenities>
+			<Categoryid>0.00</Categoryid>
+			<Negotiatorname></Negotiatorname>
+			<Negotiatoremail></Negotiatoremail>
+			<Negotiatormobile></Negotiatormobile>
+			<Thoughts><![CDATA[]]></Thoughts>
+			<Media><Item Caption="">_1143_01.jpg</Item><Item Caption="">_1143_02.jpg</Item><Item Caption="">_1143_03.jpg</Item><Item Caption="">_1143_04.jpg</Item><Item Caption="">_1143_05.jpg</Item><Item Caption="">_1143_06.jpg</Item></Media><Other><Item Caption="">_1143_01.jpg</Item><Item Caption="">_1143_02.jpg</Item><Item Caption="">_1143_03.jpg</Item><Item Caption="">_1143_04.jpg</Item><Item Caption="">_1143_05.jpg</Item><Item Caption="">_1143_06.jpg</Item></Other><Bulletpoints><Bulletpoint>Flat</Bulletpoint>
+				<Bulletpoint>Studio Flat</Bulletpoint>
+			</Bulletpoints><Rooms></Rooms><Nearbyamenities></Nearbyamenities><Events>
+			</Events></Property>
+		<Property>
+			<Rentorbuy>1.00</Rentorbuy>
+			<Refnumber>1281.00</Refnumber>
+			<Number>12</Number>
+			<Street>Queens Mews</Street>
+			<Address3></Address3>
+			<Address4>London</Address4>
+			<Postcode>W2 4BZ</Postcode>
+			<Area>Bayswater</Area>
+			<Tube></Tube>
+			<Type Commercial="False">House</Type>
+			<Beds>0.00</Beds>
+			<Singles>0.00</Singles>
+			<Doubles>0.00</Doubles>
+			<Baths>0.00</Baths>
+			<Receps>0.00</Receps>
+			<Furnished>0.00</Furnished>
+			<Garage>False</Garage>
+			<Parking>False</Parking>
+			<Garden>False</Garden>
+			<Balcony>False</Balcony>
+			<Shower>False</Shower>
+			<Sep_wc>False</Sep_wc>
+			<Washmachine>False</Washmachine>
+			<Dishwasher>False</Dishwasher>
+			<Burglaralarm>False</Burglaralarm>
+			<Petsallowed>False</Petsallowed>
+			<Smokersallowed>False</Smokersallowed>
+			<Floor></Floor>
+			<Heating>GCH</Heating>
+			<Available>16/03/2019</Available>
+			<Status LetByUs="True" SoldByUs="False">Unavailable</Status>
+			<Servicecharges></Servicecharges>
+			<Leaselength>0.00</Leaselength>
+			<Shortlet>False</Shortlet>
+			<Longlet>False</Longlet>
+			<Studentyear>False</Studentyear>
+			<Sharedcomm></Sharedcomm>
+			<Dssallowed>False</Dssallowed>
+			<Price Per="Month" Qualifier="1">4009</Price>
+			<Rent Qualifier="1" Period="Month">4009</Rent>
+			<Saleprice></Saleprice>
+			<Tenantfees><![CDATA[ + other fees may apply.
+]]></Tenantfees>
+			<Condition>0.00</Condition>
+			<Age></Age>
+			<Description><![CDATA[]]></Description>
+			<Comments><![CDATA[]]></Comments>
+			<Strapline><![CDATA[Studio]]></Strapline>
+			<Map></Map>
+			<Floorplan></Floorplan>
+			<Url>?1281</Url>
+			<Created>16/10/2018</Created>
+			<Managed>True</Managed>
+			<Epc>_1281_EPC.jpg</Epc>
+			<Branch></Branch>
+			<Branchtel></Branchtel>
+			<Evt></Evt>
+			<Featured>False</Featured>
+			<Brochure></Brochure>
+			<Gloc>51.5133169725267,-0.189712858990898</Gloc>
+			<Nearbyamenities></Nearbyamenities>
+			<Categoryid>0.00</Categoryid>
+			<Negotiatorname></Negotiatorname>
+			<Negotiatoremail></Negotiatoremail>
+			<Negotiatormobile></Negotiatormobile>
+			<Thoughts><![CDATA[]]></Thoughts>
+			<Media><Item Caption="">_1281_01.jpg</Item><Item Caption="">_1281_02.jpg</Item><Item Caption="">_1281_03.jpg</Item><Item Caption="">_1281_04.jpg</Item><Item Caption="">_1281_05.jpg</Item><Item Caption="">_1281_06.jpg</Item><Item Caption="">_1281_07.jpg</Item><Item Caption="">_1281_08.jpg</Item><Item Caption="">_1281_09.jpg</Item><Item Caption="">_1281_10.jpg</Item><Item Caption="">_1281_11.jpg</Item></Media><Other><Item Caption="">_1281_01.jpg</Item><Item Caption="">_1281_02.jpg</Item><Item Caption="">_1281_03.jpg</Item><Item Caption="">_1281_04.jpg</Item><Item Caption="">_1281_05.jpg</Item><Item Caption="">_1281_06.jpg</Item><Item Caption="">_1281_07.jpg</Item><Item Caption="">_1281_08.jpg</Item><Item Caption="">_1281_09.jpg</Item><Item Caption="">_1281_10.jpg</Item><Item Caption="">_1281_11.jpg</Item></Other><Bulletpoints><Bulletpoint>House</Bulletpoint>
+				<Bulletpoint>Studio Flat</Bulletpoint>
+			</Bulletpoints><Rooms></Rooms><Nearbyamenities></Nearbyamenities><Events>
+			</Events></Property>
+	</Properties>
+	<Areas>
+		<Area>
+			<Name>Bayswater</Name>
+		</Area>
+		<Area>
+			<Name>Chancery Lane</Name>
+		</Area>
+		<Area>
+			<Name>Farringdon</Name>
+		</Area>
+		<Area>
+			<Name>Wimbledon</Name>
+		</Area>
+		<Area>
+			<Name>Hackney</Name>
+		</Area>
+		<Area>
+			<Name>Great james street</Name>
+		</Area>
+		<Area>
+			<Name>Camden</Name>
+		</Area>
+		<Area>
+			<Name>Balham</Name>
+		</Area>
+		<Area>
+			<Name>Fulham</Name>
+		</Area>
+		<Area>
+			<Name>Paddington</Name>
+		</Area>
+		<Area>
+			<Name>Ealing</Name>
+		</Area>
+		<Area>
+			<Name>High Street Kensington</Name>
+		</Area>
+		<Area>
+			<Name>Holborn</Name>
+		</Area>
+	</Areas>
+	<Amenities></Amenities>
+</Rentman>
