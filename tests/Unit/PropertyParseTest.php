@@ -81,5 +81,37 @@ final class PropertyParseTest extends TestCase
         $this->assertEquals($prop1transformed['burglar_alarm'], convertBooleanString($prop1toriginal['Burglaralarm']));
         $this->assertEquals($prop1transformed['pets_allowed'], convertBooleanString($prop1toriginal['Petsallowed']));
         $this->assertEquals($prop1transformed['smokers_allowed'], convertBooleanString($prop1toriginal['Smokersallowed']));
+
+        $this->assertEquals($prop2transformed['baths'], $prop2toriginal['Baths']);
+        $this->assertEquals($prop2transformed['receptions'], $prop2toriginal['Receps']);
+        $this->assertEquals($prop2transformed['furnished'], $prop2toriginal['Furnished']);
+        $this->assertEquals($prop2transformed['garage'], convertBooleanString($prop2toriginal['Garage']));
+        $this->assertEquals($prop2transformed['parking'], convertBooleanString($prop2toriginal['Parking']));
+        $this->assertEquals($prop2transformed['garden'], convertBooleanString($prop2toriginal['Garden']));
+        $this->assertEquals($prop2transformed['balcony'], convertBooleanString($prop2toriginal['Balcony']));
+        $this->assertEquals($prop2transformed['shower'], convertBooleanString($prop2toriginal['Shower']));
+        $this->assertEquals($prop2transformed['sep_wc'], convertBooleanString($prop2toriginal['Sep_wc']));
+        $this->assertEquals($prop2transformed['washing_machine'], convertBooleanString($prop2toriginal['Washmachine']));
+        $this->assertEquals($prop2transformed['dishwasher'], convertBooleanString($prop2toriginal['Dishwasher']));
+        $this->assertEquals($prop2transformed['burglar_alarm'], convertBooleanString($prop2toriginal['Burglaralarm']));
+        $this->assertEquals($prop2transformed['pets_allowed'], convertBooleanString($prop2toriginal['Petsallowed']));
+        $this->assertEquals($prop2transformed['smokers_allowed'], convertBooleanString($prop2toriginal['Smokersallowed']));
+
+        $this->assertEquals($prop1transformed['heating'], $prop1toriginal['Heating']);
+        $this->assertEquals($prop2transformed['heating'], $prop2toriginal['Heating']);
+
+        $this->assertEquals($prop1transformed['available'], $prop1toriginal['Available']);
+        $this->assertEquals($prop2transformed['available'], $prop2toriginal['Available']);
+
+        $this->assertEquals($prop1transformed['lease_length'], $prop1toriginal['Leaselength']);
+        $this->assertEquals($prop2transformed['lease_length'], $prop2toriginal['Leaselength']);
+        
+        $this->assertEquals($prop1transformed['shortlet'], convertBooleanString($prop1toriginal['Shortlet']));
+        $this->assertEquals($prop1transformed['longlet'], convertBooleanString($prop1toriginal['Longlet']));
+        $this->assertEquals($prop1transformed['student_year'], convertBooleanString($prop1toriginal['Studentyear']));
+
+        $this->assertEquals($prop2transformed['shortlet'], convertBooleanString($prop2toriginal['Shortlet']));
+        $this->assertEquals($prop2transformed['longlet'], convertBooleanString($prop2toriginal['Longlet']));
+        $this->assertEquals($prop2transformed['student_year'], convertBooleanString($prop2toriginal['Studentyear']));
     }
 }

@@ -39,7 +39,16 @@ class PropertyDecorator
         $this->transformed['burglar_alarm'] = $this->setValueByBooleanString('Burglaralarm');
         $this->transformed['pets_allowed'] = $this->setValueByBooleanString('Petsallowed');
         $this->transformed['smokers_allowed'] = $this->setValueByBooleanString('Smokersallowed');
-        
+        //<Floor></Floor>
+        $this->transformed['heating'] = $this->setValueByKey('Heating');
+        $this->transformed['available'] = $this->setValueByKey('Available');
+        //<Status LetByUs="False" SoldByUs="False">Available</Status>
+        //<Servicecharges></Servicecharges>
+        $this->transformed['lease_length'] = $this->setValueByKey('Leaselength');
+        $this->transformed['shortlet'] = $this->setValueByBooleanString('Shortlet');
+        $this->transformed['longlet'] = $this->setValueByBooleanString('Longlet');
+        $this->transformed['student_year'] = $this->setValueByBooleanString('Studentyear');
+   
         return $this->getTransformed();
     }
 
