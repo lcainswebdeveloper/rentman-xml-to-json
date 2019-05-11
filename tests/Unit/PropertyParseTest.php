@@ -30,16 +30,19 @@ final class PropertyParseTest extends TestCase
             $this->assertEquals($propertyTransformed['location'], $location);
             $this->assertEquals($propertyTransformed['commercial'], convertBooleanString($property['Type']['@Commercial']));
             $this->assertEquals($propertyTransformed['type'], $property['Type']['#text']);
-            
-            // $bedrooms = [
-            //     'summary' => 'Studio Apartment',
-            //     'bedrooms' => 0,
-            //     'singles' => 0,
-            //     'doubles' => 0,
-            // ];
+            $summary = 'Studio Apartment';
+            if ((int)$property['Beds'] > 0) {
+                $summary = (int)$property['Beds'].' Bedrooms';
+            }
+            $bedrooms = [
+                'summary' => $summary,
+                'bedrooms' => (int)$property['Beds'],
+                'singles' => (int)$property['Singles'],
+                'doubles' => (int)$property['Doubles'],
+            ];
 
 
-            // $this->assertEquals($propertyTransformed['bedrooms'], $bedrooms);
+            $this->assertEquals($propertyTransformed['bedrooms'], $bedrooms);
             $this->assertEquals($propertyTransformed['baths'], $property['Baths']);
             $this->assertEquals($propertyTransformed['receptions'], $property['Receps']);
             $this->assertEquals($propertyTransformed['furnished'], $property['Furnished']);
