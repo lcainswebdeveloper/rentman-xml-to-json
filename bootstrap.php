@@ -25,3 +25,13 @@ function convertBooleanString($boolString)
     }
     return false;
 }
+
+function getRentOrBuyValue($value)
+{
+    $values = [
+            1 => 'To Let',
+            2 => 'For Sale',
+            3 => 'For Sale and To Let',
+        ];
+    return $values[(int)$value] ?? 'Unknown';
+}

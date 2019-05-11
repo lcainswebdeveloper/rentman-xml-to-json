@@ -11,8 +11,10 @@
 			<Postcode>EC1M 4AA</Postcode>
 			<Area>Farringdon</Area>
 			<Tube></Tube>
-			<Type Commercial="False">Terrace</Type>
-			<Beds>0.00</Beds>
+			<Type Commercial="False">Flat</Type>
+			<Beds>2.00</Beds>
+			<Singles>0.00</Singles>
+			<Doubles>2.00</Doubles>
 			<Baths>2.00</Baths>
 			<Receps>1.00</Receps>
 			<Furnished>2.00</Furnished>
@@ -87,10 +89,10 @@
 			<Postcode>E8 1LL</Postcode>
 			<Area>Hackney</Area>
 			<Tube></Tube>
-			<Type Commercial="True">Flat</Type>
-			<Beds>9.00</Beds>
+			<Type Commercial="False">Flat</Type>
+			<Beds>0.00</Beds>
 			<Singles>0.00</Singles>
-			<Doubles>9.00</Doubles>
+			<Doubles>0.00</Doubles>
 			<Baths>0.00</Baths>
 			<Receps>0.00</Receps>
 			<Furnished>0.00</Furnished>
@@ -145,6 +147,219 @@
 			<Negotiatormobile></Negotiatormobile>
 			<Thoughts><![CDATA[]]></Thoughts>
 			<Media><Item Caption="">_1147_01.jpg</Item><Item Caption="">_1147_02.jpg</Item><Item Caption="">_1147_03.jpg</Item><Item Caption="">_1147_04.jpg</Item><Item Caption="">_1147_05.jpg</Item><Item Caption="">_1147_06.jpg</Item></Media><Other><Item Caption="">_1147_01.jpg</Item><Item Caption="">_1147_02.jpg</Item><Item Caption="">_1147_03.jpg</Item><Item Caption="">_1147_04.jpg</Item><Item Caption="">_1147_05.jpg</Item><Item Caption="">_1147_06.jpg</Item></Other><Bulletpoints><Bulletpoint>Flat</Bulletpoint>
+				<Bulletpoint>Studio Flat</Bulletpoint>
+			</Bulletpoints><Rooms></Rooms><Nearbyamenities></Nearbyamenities><Events>
+			</Events></Property>
+		<Property>
+			<Rentorbuy>1.00</Rentorbuy>
+			<Refnumber>1142.00</Refnumber>
+			<Number>Flat 1a, 1</Number>
+			<Street>Amhurst Road</Street>
+			<Address3></Address3>
+			<Address4>London</Address4>
+			<Postcode>E8 1LL</Postcode>
+			<Area>Hackney</Area>
+			<Tube></Tube>
+			<Type Commercial="False">Flat</Type>
+			<Beds>0.00</Beds>
+			<Singles>0.00</Singles>
+			<Doubles>0.00</Doubles>
+			<Baths>0.00</Baths>
+			<Receps>0.00</Receps>
+			<Furnished>0.00</Furnished>
+			<Garage>False</Garage>
+			<Parking>False</Parking>
+			<Garden>False</Garden>
+			<Balcony>False</Balcony>
+			<Shower>False</Shower>
+			<Sep_wc>False</Sep_wc>
+			<Washmachine>False</Washmachine>
+			<Dishwasher>False</Dishwasher>
+			<Burglaralarm>False</Burglaralarm>
+			<Petsallowed>False</Petsallowed>
+			<Smokersallowed>False</Smokersallowed>
+			<Floor></Floor>
+			<Heating>GCH</Heating>
+			<Available>03/06/2019</Available>
+			<Status LetByUs="True" SoldByUs="False">Unavailable</Status>
+			<Servicecharges></Servicecharges>
+			<Leaselength>0.00</Leaselength>
+			<Shortlet>False</Shortlet>
+			<Longlet>False</Longlet>
+			<Studentyear>False</Studentyear>
+			<Sharedcomm></Sharedcomm>
+			<Dssallowed>False</Dssallowed>
+			<Price Per="Month" Qualifier="1">1257</Price>
+			<Rent Qualifier="1" Period="Month">1257</Rent>
+			<Saleprice></Saleprice>
+			<Tenantfees><![CDATA[ + other fees may apply.
+]]></Tenantfees>
+			<Condition>0.00</Condition>
+			<Age></Age>
+			<Description><![CDATA[]]></Description>
+			<Comments><![CDATA[]]></Comments>
+			<Strapline><![CDATA[Studio]]></Strapline>
+			<Map></Map>
+			<Floorplan></Floorplan>
+			<Url>?1142</Url>
+			<Created>16/10/2018</Created>
+			<Managed>True</Managed>
+			<Epc>_1142_EPC.jpg</Epc>
+			<Branch></Branch>
+			<Branchtel></Branchtel>
+			<Evt></Evt>
+			<Featured>False</Featured>
+			<Brochure></Brochure>
+			<Gloc>51.5471206363435,-0.0563033196428364</Gloc>
+			<Nearbyamenities></Nearbyamenities>
+			<Categoryid>0.00</Categoryid>
+			<Negotiatorname></Negotiatorname>
+			<Negotiatoremail></Negotiatoremail>
+			<Negotiatormobile></Negotiatormobile>
+			<Thoughts><![CDATA[]]></Thoughts>
+			<Media><Item Caption="">_1142_01.jpg</Item><Item Caption="">_1142_02.jpg</Item><Item Caption="">_1142_03.jpg</Item><Item Caption="">_1142_04.jpg</Item><Item Caption="">_1142_05.jpg</Item></Media><Other><Item Caption="">_1142_01.jpg</Item><Item Caption="">_1142_02.jpg</Item><Item Caption="">_1142_03.jpg</Item><Item Caption="">_1142_04.jpg</Item><Item Caption="">_1142_05.jpg</Item></Other><Bulletpoints><Bulletpoint>Flat</Bulletpoint>
+				<Bulletpoint>Studio Flat</Bulletpoint>
+			</Bulletpoints><Rooms></Rooms><Nearbyamenities></Nearbyamenities><Events>
+			</Events></Property>
+		<Property>
+			<Rentorbuy>1.00</Rentorbuy>
+			<Refnumber>1143.00</Refnumber>
+			<Number>Flat 1b, 1</Number>
+			<Street>Amhurst Road</Street>
+			<Address3></Address3>
+			<Address4>London</Address4>
+			<Postcode>E8 1LL</Postcode>
+			<Area>Hackney</Area>
+			<Tube></Tube>
+			<Type Commercial="False">Flat</Type>
+			<Beds>0.00</Beds>
+			<Singles>0.00</Singles>
+			<Doubles>0.00</Doubles>
+			<Baths>0.00</Baths>
+			<Receps>0.00</Receps>
+			<Furnished>0.00</Furnished>
+			<Garage>False</Garage>
+			<Parking>False</Parking>
+			<Garden>False</Garden>
+			<Balcony>False</Balcony>
+			<Shower>False</Shower>
+			<Sep_wc>False</Sep_wc>
+			<Washmachine>False</Washmachine>
+			<Dishwasher>False</Dishwasher>
+			<Burglaralarm>False</Burglaralarm>
+			<Petsallowed>False</Petsallowed>
+			<Smokersallowed>False</Smokersallowed>
+			<Floor></Floor>
+			<Heating>GCH</Heating>
+			<Available>28/07/2019</Available>
+			<Status LetByUs="True" SoldByUs="False">Unavailable</Status>
+			<Servicecharges></Servicecharges>
+			<Leaselength>0.00</Leaselength>
+			<Shortlet>False</Shortlet>
+			<Longlet>False</Longlet>
+			<Studentyear>False</Studentyear>
+			<Sharedcomm></Sharedcomm>
+			<Dssallowed>False</Dssallowed>
+			<Price Per="Month" Qualifier="1">1386</Price>
+			<Rent Qualifier="1" Period="Month">1386</Rent>
+			<Saleprice></Saleprice>
+			<Tenantfees><![CDATA[ + other fees may apply.
+]]></Tenantfees>
+			<Condition>0.00</Condition>
+			<Age></Age>
+			<Description><![CDATA[]]></Description>
+			<Comments><![CDATA[]]></Comments>
+			<Strapline><![CDATA[Studio]]></Strapline>
+			<Map></Map>
+			<Floorplan></Floorplan>
+			<Url>?1143</Url>
+			<Created>16/10/2018</Created>
+			<Managed>True</Managed>
+			<Epc>_1143_EPC.jpg</Epc>
+			<Branch></Branch>
+			<Branchtel></Branchtel>
+			<Evt></Evt>
+			<Featured>False</Featured>
+			<Brochure></Brochure>
+			<Gloc>,</Gloc>
+			<Nearbyamenities></Nearbyamenities>
+			<Categoryid>0.00</Categoryid>
+			<Negotiatorname></Negotiatorname>
+			<Negotiatoremail></Negotiatoremail>
+			<Negotiatormobile></Negotiatormobile>
+			<Thoughts><![CDATA[]]></Thoughts>
+			<Media><Item Caption="">_1143_01.jpg</Item><Item Caption="">_1143_02.jpg</Item><Item Caption="">_1143_03.jpg</Item><Item Caption="">_1143_04.jpg</Item><Item Caption="">_1143_05.jpg</Item><Item Caption="">_1143_06.jpg</Item></Media><Other><Item Caption="">_1143_01.jpg</Item><Item Caption="">_1143_02.jpg</Item><Item Caption="">_1143_03.jpg</Item><Item Caption="">_1143_04.jpg</Item><Item Caption="">_1143_05.jpg</Item><Item Caption="">_1143_06.jpg</Item></Other><Bulletpoints><Bulletpoint>Flat</Bulletpoint>
+				<Bulletpoint>Studio Flat</Bulletpoint>
+			</Bulletpoints><Rooms></Rooms><Nearbyamenities></Nearbyamenities><Events>
+			</Events></Property>
+		<Property>
+			<Rentorbuy>1.00</Rentorbuy>
+			<Refnumber>1281.00</Refnumber>
+			<Number>12</Number>
+			<Street>Queens Mews</Street>
+			<Address3></Address3>
+			<Address4>London</Address4>
+			<Postcode>W2 4BZ</Postcode>
+			<Area>Bayswater</Area>
+			<Tube></Tube>
+			<Type Commercial="False">House</Type>
+			<Beds>0.00</Beds>
+			<Singles>0.00</Singles>
+			<Doubles>0.00</Doubles>
+			<Baths>0.00</Baths>
+			<Receps>0.00</Receps>
+			<Furnished>0.00</Furnished>
+			<Garage>False</Garage>
+			<Parking>False</Parking>
+			<Garden>False</Garden>
+			<Balcony>False</Balcony>
+			<Shower>False</Shower>
+			<Sep_wc>False</Sep_wc>
+			<Washmachine>False</Washmachine>
+			<Dishwasher>False</Dishwasher>
+			<Burglaralarm>False</Burglaralarm>
+			<Petsallowed>False</Petsallowed>
+			<Smokersallowed>False</Smokersallowed>
+			<Floor></Floor>
+			<Heating>GCH</Heating>
+			<Available>16/03/2019</Available>
+			<Status LetByUs="True" SoldByUs="False">Unavailable</Status>
+			<Servicecharges></Servicecharges>
+			<Leaselength>0.00</Leaselength>
+			<Shortlet>False</Shortlet>
+			<Longlet>False</Longlet>
+			<Studentyear>False</Studentyear>
+			<Sharedcomm></Sharedcomm>
+			<Dssallowed>False</Dssallowed>
+			<Price Per="Month" Qualifier="1">4009</Price>
+			<Rent Qualifier="1" Period="Month">4009</Rent>
+			<Saleprice></Saleprice>
+			<Tenantfees><![CDATA[ + other fees may apply.
+]]></Tenantfees>
+			<Condition>0.00</Condition>
+			<Age></Age>
+			<Description><![CDATA[]]></Description>
+			<Comments><![CDATA[]]></Comments>
+			<Strapline><![CDATA[Studio]]></Strapline>
+			<Map></Map>
+			<Floorplan></Floorplan>
+			<Url>?1281</Url>
+			<Created>16/10/2018</Created>
+			<Managed>True</Managed>
+			<Epc>_1281_EPC.jpg</Epc>
+			<Branch></Branch>
+			<Branchtel></Branchtel>
+			<Evt></Evt>
+			<Featured>False</Featured>
+			<Brochure></Brochure>
+			<Gloc>51.5133169725267,-0.189712858990898</Gloc>
+			<Nearbyamenities></Nearbyamenities>
+			<Categoryid>0.00</Categoryid>
+			<Negotiatorname></Negotiatorname>
+			<Negotiatoremail></Negotiatoremail>
+			<Negotiatormobile></Negotiatormobile>
+			<Thoughts><![CDATA[]]></Thoughts>
+			<Media><Item Caption="">_1281_01.jpg</Item><Item Caption="">_1281_02.jpg</Item><Item Caption="">_1281_03.jpg</Item><Item Caption="">_1281_04.jpg</Item><Item Caption="">_1281_05.jpg</Item><Item Caption="">_1281_06.jpg</Item><Item Caption="">_1281_07.jpg</Item><Item Caption="">_1281_08.jpg</Item><Item Caption="">_1281_09.jpg</Item><Item Caption="">_1281_10.jpg</Item><Item Caption="">_1281_11.jpg</Item></Media><Other><Item Caption="">_1281_01.jpg</Item><Item Caption="">_1281_02.jpg</Item><Item Caption="">_1281_03.jpg</Item><Item Caption="">_1281_04.jpg</Item><Item Caption="">_1281_05.jpg</Item><Item Caption="">_1281_06.jpg</Item><Item Caption="">_1281_07.jpg</Item><Item Caption="">_1281_08.jpg</Item><Item Caption="">_1281_09.jpg</Item><Item Caption="">_1281_10.jpg</Item><Item Caption="">_1281_11.jpg</Item></Other><Bulletpoints><Bulletpoint>House</Bulletpoint>
 				<Bulletpoint>Studio Flat</Bulletpoint>
 			</Bulletpoints><Rooms></Rooms><Nearbyamenities></Nearbyamenities><Events>
 			</Events></Property>

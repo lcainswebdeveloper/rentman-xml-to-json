@@ -124,20 +124,10 @@ class PropertyDecorator
     public function setRentOrBuy($val = null)
     {
         if (isset($this->propertyData['Rentorbuy'])) {
-            $this->transformed['rent_or_buy'] = $this->getRentOrBuyValue($this->propertyData['Rentorbuy']);
+            $this->transformed['rent_or_buy'] = getRentOrBuyValue($this->propertyData['Rentorbuy']);
         }
         
         return $this;
-    }
-
-    public function getRentOrBuyValue($value)
-    {
-        $values = [
-            1 => 'To Let',
-            2 => 'For Sale',
-            3 => 'For Sale and To Let',
-        ];
-        return $values[(int)$value] ?? 'Unknown';
     }
 
     /**
