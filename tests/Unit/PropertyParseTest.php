@@ -85,6 +85,10 @@ final class PropertyParseTest extends TestCase
             $this->assertEquals($propertyTransformed['dss_allowed'], convertBooleanString($property['Dssallowed']));
             
             $this->assertEquals($propertyTransformed['tenant_fees'], $property['Tenantfees']);
+            $this->assertEquals($propertyTransformed['age'], $property['Age']);
+            $this->assertEquals($propertyTransformed['description'], $property['Description']);
+            $this->assertEquals($propertyTransformed['comments'], $property['Comments']);
+            $this->assertEquals($propertyTransformed['strapline'], $property['Strapline']);
         }
     }
 }

@@ -61,9 +61,11 @@ class PropertyDecorator
         $this->transformed['rent_qualifier'] = priceQualifier($this->propertyData['Rent']['@Qualifier']);
         
         $this->transformed['condition'] = condition($this->propertyData['Condition']);
-        //<Rent Qualifier="1" Period="Month">2362</Rent>
-        //<Saleprice></Saleprice>
         $this->transformed['tenant_fees'] = $this->setValueByKey('Tenantfees');
+        $this->transformed['age'] = $this->propertyData['Age'];
+        $this->transformed['description'] = $this->propertyData['Description'];
+        $this->transformed['comments'] = $this->propertyData['Comments'];
+        $this->transformed['strapline'] = $this->propertyData['Strapline'];
         
         
         
