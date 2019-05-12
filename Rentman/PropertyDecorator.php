@@ -39,8 +39,11 @@ class PropertyDecorator
         $this->transformed['burglar_alarm'] = $this->setValueByBooleanString('Burglaralarm');
         $this->transformed['pets_allowed'] = $this->setValueByBooleanString('Petsallowed');
         $this->transformed['smokers_allowed'] = $this->setValueByBooleanString('Smokersallowed');
-        //<Floor></Floor>
+        $this->transformed['floor'] = (int)$this->setValueByKey('Floor');
         $this->transformed['heating'] = $this->setValueByKey('Heating');
+        $this->transformed['status'] = $this->setStatus();
+        $this->transformed['let_by_us'] = $this->setLetBoolean();
+        $this->transformed['sold_by_us'] = $this->setSoldBoolean();
         $this->transformed['available'] = $this->setValueByKey('Available');
         //<Status LetByUs="False" SoldByUs="False">Available</Status>
         //<Servicecharges></Servicecharges>
@@ -53,7 +56,7 @@ class PropertyDecorator
         //<Price Per="Month" Qualifier="1">2362</Price>
         //<Rent Qualifier="1" Period="Month">2362</Rent>
         //<Saleprice></Saleprice>
-        $this->transformed['tennant_fees'] = $this->setValueByKey('Tenantfees');
+        $this->transformed['tenant_fees'] = $this->setValueByKey('Tenantfees');
         
         
         
@@ -94,6 +97,28 @@ class PropertyDecorator
         }
         return false;
     }
+
+    public function setStatus()
+    {
+        return $this->propertyData['Status']['#text'] ?? '';
+    }
+
+    public function setLetBoolean()
+    {
+        if (strtolower($this->propertyData['Status']['@LetByUs']) == 'true') {
+            return true;
+        }
+        return false;
+    }
+    
+    public function setSoldBoolean()
+    {
+        if (strtolower($this->propertyData['Status']['@SoldByUs']) == 'true') {
+            return true;
+        }
+        return false;
+    }
+
 
     protected function setLocation()
     {

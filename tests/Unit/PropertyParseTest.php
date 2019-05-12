@@ -57,12 +57,13 @@ final class PropertyParseTest extends TestCase
             $this->assertEquals($propertyTransformed['burglar_alarm'], convertBooleanString($property['Burglaralarm']));
             $this->assertEquals($propertyTransformed['pets_allowed'], convertBooleanString($property['Petsallowed']));
             $this->assertEquals($propertyTransformed['smokers_allowed'], convertBooleanString($property['Smokersallowed']));
-
-            
+            $this->assertEquals($propertyTransformed['floor'], (int)$property['Floor']);
             $this->assertEquals($propertyTransformed['heating'], $property['Heating']);
             
             $this->assertEquals($propertyTransformed['available'], $property['Available']);
-            
+            $this->assertEquals($propertyTransformed['status'], $property['Status']['#text']);
+            $this->assertEquals($propertyTransformed['let_by_us'], convertBooleanString($property['Status']['@LetByUs']));
+            $this->assertEquals($propertyTransformed['sold_by_us'], convertBooleanString($property['Status']['@SoldByUs']));
             $this->assertEquals($propertyTransformed['lease_length'], $property['Leaselength']);
             
             $this->assertEquals($propertyTransformed['shortlet'], convertBooleanString($property['Shortlet']));
@@ -72,7 +73,7 @@ final class PropertyParseTest extends TestCase
             
             $this->assertEquals($propertyTransformed['dss_allowed'], convertBooleanString($property['Dssallowed']));
             
-            $this->assertEquals($propertyTransformed['tennant_fees'], $property['Tenantfees']);
+            $this->assertEquals($propertyTransformed['tenant_fees'], $property['Tenantfees']);
         }
     }
 }
