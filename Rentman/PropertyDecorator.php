@@ -57,7 +57,10 @@ class PropertyDecorator
         $this->transformed['price_per'] = $this->propertyData['Price']['@Per'];
         $this->transformed['price_qualifier'] = priceQualifier($this->propertyData['Price']['@Qualifier']);
         
-        //<Price Per="Month" Qualifier="1">2362</Price>
+        $this->transformed['rent'] = $this->propertyData['Rent']['#text'];
+        $this->transformed['rent_per'] = $this->propertyData['Rent']['@Period'];
+        $this->transformed['rent_qualifier'] = priceQualifier($this->propertyData['Rent']['@Qualifier']);
+        
         //<Rent Qualifier="1" Period="Month">2362</Rent>
         //<Saleprice></Saleprice>
         $this->transformed['tenant_fees'] = $this->setValueByKey('Tenantfees');
