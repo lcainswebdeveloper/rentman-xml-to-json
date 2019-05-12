@@ -45,8 +45,8 @@ class PropertyDecorator
         $this->transformed['let_by_us'] = $this->setLetBoolean();
         $this->transformed['sold_by_us'] = $this->setSoldBoolean();
         $this->transformed['available'] = $this->setValueByKey('Available');
-        //<Status LetByUs="False" SoldByUs="False">Available</Status>
-        //<Servicecharges></Servicecharges>
+        $this->transformed['service_charges'] = $this->setValueByKey('Servicecharges');
+        $this->transformed['shared_comm'] = $this->setValueByKey('Sharedcomm');
         $this->transformed['lease_length'] = $this->setValueByKey('Leaselength');
         $this->transformed['shortlet'] = $this->setValueByBooleanString('Shortlet');
         $this->transformed['longlet'] = $this->setValueByBooleanString('Longlet');

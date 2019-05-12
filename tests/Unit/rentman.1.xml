@@ -3,11 +3,6 @@
 	<Properties>
 		<Property>
 			
-			
-			<Floor></Floor>
-			<Status LetByUs="False" SoldByUs="False">Available</Status>
-			<Servicecharges></Servicecharges>
-			<Sharedcomm></Sharedcomm>
 			<Price Per="Month" Qualifier="1">2362</Price>
 			<Rent Qualifier="1" Period="Month">2362</Rent>			
 			<Saleprice></Saleprice>
