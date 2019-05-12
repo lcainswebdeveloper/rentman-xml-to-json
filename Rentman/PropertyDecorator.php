@@ -51,7 +51,6 @@ class PropertyDecorator
         $this->transformed['shortlet'] = $this->setValueByBooleanString('Shortlet');
         $this->transformed['longlet'] = $this->setValueByBooleanString('Longlet');
         $this->transformed['student_year'] = $this->setValueByBooleanString('Studentyear');
-        //<Sharedcomm></Sharedcomm>
         $this->transformed['dss_allowed'] = $this->setValueByBooleanString('Dssallowed');
         $this->transformed['price'] = $this->propertyData['Price']['#text'];
         $this->transformed['price_per'] = $this->propertyData['Price']['@Per'];
@@ -61,6 +60,7 @@ class PropertyDecorator
         $this->transformed['rent_per'] = $this->propertyData['Rent']['@Period'];
         $this->transformed['rent_qualifier'] = priceQualifier($this->propertyData['Rent']['@Qualifier']);
         
+        $this->transformed['condition'] = condition($this->propertyData['Condition']);
         //<Rent Qualifier="1" Period="Month">2362</Rent>
         //<Saleprice></Saleprice>
         $this->transformed['tenant_fees'] = $this->setValueByKey('Tenantfees');

@@ -51,3 +51,19 @@ function priceQualifier($key)
     }
     return 'Unknown';
 }
+
+function condition($key)
+{
+    $options = [
+        0 => 'Unknown',
+        1 => 'Poor',
+        2 => 'Fair',
+        3 => 'Good',
+        4 => 'Very Good',
+        5 => 'Excellent',
+    ];
+    if (isset($options[(int)$key])) {
+        return $options[(int)$key];
+    }
+    return 'Unknown';
+}
