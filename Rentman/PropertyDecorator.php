@@ -53,6 +53,10 @@ class PropertyDecorator
         $this->transformed['student_year'] = $this->setValueByBooleanString('Studentyear');
         //<Sharedcomm></Sharedcomm>
         $this->transformed['dss_allowed'] = $this->setValueByBooleanString('Dssallowed');
+        $this->transformed['price'] = $this->propertyData['Price']['#text'];
+        $this->transformed['price_per'] = $this->propertyData['Price']['@Per'];
+        $this->transformed['price_qualifier'] = priceQualifier($this->propertyData['Price']['@Qualifier']);
+        
         //<Price Per="Month" Qualifier="1">2362</Price>
         //<Rent Qualifier="1" Period="Month">2362</Rent>
         //<Saleprice></Saleprice>
@@ -63,7 +67,7 @@ class PropertyDecorator
 
         return $this->getTransformed();
     }
-
+    
     public function setBedrooms()
     {
         $bedrooms = [
