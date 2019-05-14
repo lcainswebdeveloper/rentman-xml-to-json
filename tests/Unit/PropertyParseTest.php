@@ -89,6 +89,19 @@ final class PropertyParseTest extends TestCase
             $this->assertEquals($propertyTransformed['description'], $property['Description']);
             $this->assertEquals($propertyTransformed['comments'], $property['Comments']);
             $this->assertEquals($propertyTransformed['strapline'], $property['Strapline']);
+            $this->assertEquals($propertyTransformed['map'], $property['Map']);
+            $this->assertEquals($propertyTransformed['floorplan'], $property['Floorplan']);
+            $this->assertEquals($propertyTransformed['url'], $property['Url']);
+            $this->assertEquals($propertyTransformed['created'], $property['Created']);
+            $this->assertEquals($propertyTransformed['managed'], convertBooleanString($property['Managed']));
+            $this->assertEquals($propertyTransformed['epc'], $property['Epc']);
+            $this->assertEquals($propertyTransformed['evt'], $property['Evt']);
+            $this->assertEquals($propertyTransformed['featured'], convertBooleanString($property['Featured']));
+            $this->assertEquals($propertyTransformed['brochure'], $property['Brochure']);
+            $this->assertEquals($propertyTransformed['lat_lng'], $property['Gloc']);
+            $this->assertEquals($propertyTransformed['negotiator_name'], $property['Negotiatorname']);
+            $this->assertEquals($propertyTransformed['negotiator_email'], $property['Negotiatoremail']);
+            $this->assertEquals($propertyTransformed['negotiator_mobile'], $property['Negotiatormobile']);
         }
     }
 }

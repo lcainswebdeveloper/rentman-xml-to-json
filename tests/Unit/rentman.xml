@@ -140,7 +140,16 @@
 			<Featured>False</Featured>
 			<Brochure></Brochure>
 			<Gloc>51.5471206363435,-0.0563033196428364</Gloc>
-			<Nearbyamenities></Nearbyamenities>
+			<Nearbyamenities>
+				<Amenity>
+<id>2</id>
+<Distance Unit="Miles">0.00</Distance>
+</Amenity>
+<Amenity>
+<id>3</id>
+<Distance Unit="Miles">0.00</Distance>
+</Amenity>
+			</Nearbyamenities>
 			<Categoryid>0.00</Categoryid>
 			<Negotiatorname></Negotiatorname>
 			<Negotiatoremail></Negotiatoremail>
@@ -405,5 +414,31 @@
 			<Name>Holborn</Name>
 		</Area>
 	</Areas>
-	<Amenities></Amenities>
+	<Amenities>
+<Amenity>
+<Id>2</Id>
+<Name>Forester&#39;s Arms</Name>
+<Address>1 North Street, Egham, Surrey, TW20 9RP</Address>
+<Telephone></Telephone>
+<Email></Email>
+<WWW></WWW>
+<Gloc>51.428308,-0.551774</Gloc>
+<Radius>1</Radius>
+<Types>
+<Type>Pub</Type>
+</Types>
+</Amenity>
+<Amenity>
+<Id>3</Id>
+<Name>Strodes</Name>
+<Address>High Street, Egham, , TW20 9DR</Address>
+<Telephone></Telephone>
+<Email></Email>
+<WWW></WWW>
+<Gloc>51.432516,-0.550317</Gloc>
+<Radius>5</Radius>
+<Types>
+<Type>School</Type>
+</Types>
+</Amenity></Amenities>
 </Rentman>
