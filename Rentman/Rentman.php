@@ -11,6 +11,8 @@ class Rentman
     protected $parsedArrayData = [];
     protected $transformedData = [];
     protected $errors = [];
+    protected $amenities = [];
+    protected $areas = [];
     public function __construct($pathtoRentmanXmlFile)
     {
         $this->setPathtoRentmanXmlFile($pathtoRentmanXmlFile);
@@ -37,11 +39,13 @@ class Rentman
         $transformed = [
             'properties' => []
         ];
-      
+        
+        $this->setAmenities();
+        $this->setAreas();
         foreach ($this->getParsedArrayData()['Properties']['Property'] as $property) {
             $decorator = new PropertyDecorator();
             $decorator->setPropertyData($property);
-            $transformed['properties'][] = $decorator->decorate();
+            $transformed['properties'][] = $decorator->decorate($this->getAmenities(), $this->getAreas());
         }
         return $transformed;
     }
@@ -133,6 +137,62 @@ class Rentman
     public function setParsedArrayData($parsedArrayData)
     {
         $this->parsedArrayData = $parsedArrayData;
+
+        return $this;
+    }
+
+    /**
+     * Get the value of amenities
+     */
+    public function getAmenities()
+    {
+        return $this->amenities;
+    }
+
+    /**
+     * Set the value of amenities
+     *
+     * @return  self
+     */
+    public function setAmenities()
+    {
+        $amenities = [];
+        if (isset($this->getParsedArrayData()['Amenities'])) {
+            if (isset($this->getParsedArrayData()['Amenities']['Amenity'])) {
+                foreach ($this->getParsedArrayData()['Amenities']['Amenity'] as $key => $amenity) {
+                    $amenities[] = array_change_key_case($amenity, CASE_LOWER);
+                }
+            }
+        }
+        $this->amenities = $amenities;
+
+        return $this;
+    }
+
+    /**
+     * Get the value of areas
+     */
+    public function getAreas()
+    {
+        return $this->areas;
+    }
+
+    /**
+     * Set the value of areas
+     *
+     * @return  self
+     */
+    public function setAreas()
+    {
+        $areas = [];
+        if (isset($this->getParsedArrayData()['Areas'])) {
+            if (isset($this->getParsedArrayData()['Areas']['Area'])) {
+                foreach ($this->getParsedArrayData()['Areas']['Area'] as $area) {
+                    $areas[] = $area['Name'];
+                }
+            }
+        }
+        $this->areas = $areas;
 
         return $this;
     }

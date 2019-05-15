@@ -9,16 +9,8 @@ class PropertyDecorator
     {
     }
 
-    public function decorate()
+    public function decorate(array $amenityOptions = [], array $areaOptions = [])
     {
-        //             [Refnumber] => 1.00
-        //             [Number] => 5
-        //             [Street] => North Street
-        //             [Address3] => Egham
-        //             [Address4] => Surrey
-        //             [Postcode] => TW20 9RP
-        //             [Area] => Egham
-        //             [Tube] =>
         $this->setRentorBuy();
         $this->transformed['ref_number'] = $this->setValueByKey('Refnumber');
         $this->transformed['location'] = $this->setLocation();
@@ -83,6 +75,18 @@ class PropertyDecorator
         $this->transformed['negotiator_name'] = $this->propertyData['Negotiatorname'];
         $this->transformed['negotiator_email'] = $this->propertyData['Negotiatoremail'];
         $this->transformed['negotiator_mobile'] = $this->propertyData['Negotiatormobile'];
+        $amenities = [];
+        //mapping amenities
+        if (!empty($this->propertyData['Nearbyamenities'][0])) {
+            echo "FOO";
+            if (isset($this->propertyData['Nearbyamenities'][0]['amenity'])) {
+                echo "BAR";
+                foreach ($this->propertyData['Nearbyamenities'][0]['amenity'] as $amenity) {
+                    prepr($amenity);
+                }
+                //exit();
+            }
+        }
 
         return $this->getTransformed();
     }
