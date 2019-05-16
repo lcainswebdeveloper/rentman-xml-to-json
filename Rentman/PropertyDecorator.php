@@ -58,17 +58,17 @@ class PropertyDecorator
         $this->transformed['description'] = $this->propertyData['Description'];
         $this->transformed['comments'] = $this->propertyData['Comments'];
         $this->transformed['strapline'] = $this->propertyData['Strapline'];
-        $this->transformed['map'] = $this->propertyData['Map'];
-        $this->transformed['floorplan'] = $this->propertyData['Floorplan'];
+        $this->transformed['map'] = fullFilePath($this->propertyData['Map']);
+        $this->transformed['floorplan'] = fullFilePath($this->propertyData['Floorplan']);
         $this->transformed['url'] = $this->propertyData['Url'];
         $this->transformed['created'] = $this->propertyData['Created'];
         $this->transformed['managed'] = $this->setValueByBooleanString('Managed');
-        $this->transformed['epc'] = $this->propertyData['Epc'];
+        $this->transformed['epc'] = fullFilePath($this->propertyData['Epc']);
         $this->transformed['branch'] = $this->propertyData['Branch'];
         $this->transformed['branch_tel'] = $this->propertyData['Branchtel'];
         $this->transformed['evt'] = $this->propertyData['Evt'];
         $this->transformed['featured'] = $this->setValueByBooleanString('Featured');
-        $this->transformed['brochure'] = $this->propertyData['Brochure'];
+        $this->transformed['brochure'] = fullFilePath($this->propertyData['Brochure']);
         $this->transformed['lat_lng'] = $this->propertyData['Gloc'];
         //TODO NEARBY AMENITIES
         //TODO CATEGORY ID / CATEGORIES
