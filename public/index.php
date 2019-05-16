@@ -2,6 +2,8 @@
 require __DIR__.'/../bootstrap.php';
 use Nathanmac\Utilities\Parser\Parser as Parser;
 
+// prepr(simplexml_load_file(__DIR__.'/../tests/Unit/rentman.xml'));
+// exit();
 try {
     $parser = new Parser();
     $xmlPath = __DIR__.'/../tests/Unit/rentman.xml';

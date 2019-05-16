@@ -75,22 +75,86 @@ class PropertyDecorator
         $this->transformed['negotiator_name'] = $this->propertyData['Negotiatorname'];
         $this->transformed['negotiator_email'] = $this->propertyData['Negotiatoremail'];
         $this->transformed['negotiator_mobile'] = $this->propertyData['Negotiatormobile'];
-        $amenities = [];
-        //mapping amenities
-        if (!empty($this->propertyData['Nearbyamenities'][0])) {
-            echo "FOO";
-            if (isset($this->propertyData['Nearbyamenities'][0]['amenity'])) {
-                echo "BAR";
-                foreach ($this->propertyData['Nearbyamenities'][0]['amenity'] as $amenity) {
-                    prepr($amenity);
-                }
-                //exit();
-            }
-        }
-
+        //tests needed for below
+        $this->transformed['thoughts'] = $this->propertyData['Thoughts'];
+        $this->setAmenities($amenityOptions);
+        $this->setMedia();
+        $this->setOther();
+        $this->setBulletpoints();
         return $this->getTransformed();
     }
     
+    public function setAmenities($amenityOptions)
+    {
+        $amenities = [];
+        //mapping amenities
+        if (
+            isset($this->propertyData['Nearbyamenities'][0])
+            && !empty($this->propertyData['Nearbyamenities'][0])
+        ) {
+            if (isset($this->propertyData['Nearbyamenities'][0]['Amenity'])) {
+                foreach ($this->propertyData['Nearbyamenities'][0]['Amenity'] as $amenity) {
+                    $filter = array_values(array_filter($amenityOptions, function ($a) use ($amenity) {
+                        return $a['id'] == $amenity['id'];
+                    }));
+                    if (isset($filter[0])) {
+                        $distance = (int)$amenity['Distance']['#text'];
+                        $amenities[] = $filter[0] + [
+                            'distance' => $distance.' '.strtolower($amenity['Distance']['@Unit'])
+                        ];
+                    }
+                }
+            }
+        }
+        $this->transformed['amenities'] = $amenities;
+        return $this;
+    }
+
+    public function setMedia()
+    {
+        $media = [];
+        if (isset($this->propertyData['Media'])) {
+            if (isset($this->propertyData['Media']['Item'])) {
+                $media = array_map(function ($i) {
+                    return [
+                       'file' => fullFilePath($i['#text']),
+                       'caption' => $i['@Caption'],
+                    ];
+                }, $this->propertyData['Media']['Item']);
+            }
+        }
+        $this->transformed['media'] = $media;
+        return $this;
+    }
+
+    public function setOther()
+    {
+        $other = [];
+        if (isset($this->propertyData['Other'])) {
+            if (isset($this->propertyData['Other']['Item'])) {
+                $other = array_map(function ($i) {
+                    return [
+                       'file' => fullFilePath($i['#text']),
+                       'caption' => $i['@Caption'],
+                    ];
+                }, $this->propertyData['Other']['Item']);
+            }
+        }
+        $this->transformed['other'] = $other;
+        return $this;
+    }
+
+    public function setBulletpoints()
+    {
+        $bulletpoints = [];
+        if (isset($this->propertyData['Bulletpoints'])) {
+            if (isset($this->propertyData['Bulletpoints']['Bulletpoint'])) {
+                $bulletpoints = $this->propertyData['Bulletpoints']['Bulletpoint'];
+            }
+        }
+        $this->transformed['bulletpoints'] = $bulletpoints;
+    }
+
     public function setBedrooms()
     {
         $bedrooms = [

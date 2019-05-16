@@ -67,3 +67,8 @@ function condition($key)
     }
     return 'Unknown';
 }
+
+function fullFilePath($file)
+{
+    return $file;
+}

@@ -3,21 +3,13 @@
 	<Properties>
 		<Property>
 			
-			<Nearbyamenities></Nearbyamenities>
 			<Categoryid>0.00</Categoryid>
 			
-			<Thoughts><![CDATA[]]></Thoughts>
-			<Media><Item Caption="">_1150_01.jpg</Item><Item Caption="">_1150_02.jpg</Item><Item Caption="">_1150_03.jpg</Item><Item Caption="">_1150_04.jpg</Item><Item Caption="">_1150_05.jpg</Item><Item Caption="">_1150_06.jpg</Item></Media><Other><Item Caption="">_1150_01.jpg</Item><Item Caption="">_1150_02.jpg</Item><Item Caption="">_1150_03.jpg</Item><Item Caption="">_1150_04.jpg</Item><Item Caption="">_1150_05.jpg</Item><Item Caption="">_1150_06.jpg</Item></Other><Bulletpoints><Bulletpoint>Flat</Bulletpoint>
-				<Bulletpoint>2 Beds</Bulletpoint>
-				<Bulletpoint>1 Reception</Bulletpoint>
-				<Bulletpoint>2 Bathrooms</Bulletpoint>
-				<Bulletpoint>Energy Rating : D</Bulletpoint>
-				<Bulletpoint>Unfurnished</Bulletpoint>
-				<Bulletpoint>Shower</Bulletpoint>
-				<Bulletpoint>Washing Machine</Bulletpoint>
-				<Bulletpoint>Dishwasher</Bulletpoint>
-			</Bulletpoints><Rooms></Rooms><Nearbyamenities></Nearbyamenities><Events>
-			</Events></Property>
+			<Rooms></Rooms>
+			<Nearbyamenities></Nearbyamenities>
+			<Events>
+			</Events>
+		</Property>
 		<Property>
 			<Rentorbuy>1.00</Rentorbuy>
 			<Refnumber>1147.00</Refnumber>

@@ -15,7 +15,7 @@ final class PropertyParseTest extends TestCase
 
         foreach ($rentman->getParsedArrayData()['Properties']['Property'] as $key => $property) {
             $propertyTransformed = $properties[$key];
-            //prepr($propertyTransformed);
+            prepr($propertyTransformed);
             $this->assertEquals(getRentOrBuyValue($property['Rentorbuy']), $propertyTransformed['rent_or_buy']);
             $this->assertEquals($property['Refnumber'], $propertyTransformed['ref_number']);
             $location = [
