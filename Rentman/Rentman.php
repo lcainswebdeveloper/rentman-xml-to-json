@@ -13,6 +13,7 @@ class Rentman
     protected $errors = [];
     protected $amenities = [];
     protected $areas = [];
+    protected $categories = [];
     public function __construct($pathtoRentmanXmlFile)
     {
         $this->setPathtoRentmanXmlFile($pathtoRentmanXmlFile);
@@ -42,10 +43,11 @@ class Rentman
         
         $this->setAmenities();
         $this->setAreas();
+        $this->setCategories();
         foreach ($this->getParsedArrayData()['Properties']['Property'] as $property) {
             $decorator = new PropertyDecorator();
             $decorator->setPropertyData($property);
-            $transformed['properties'][] = $decorator->decorate($this->getAmenities(), $this->getAreas());
+            $transformed['properties'][] = $decorator->decorate($this->getCategories(), $this->getAmenities(), $this->getAreas());
         }
         return $transformed;
     }
@@ -193,6 +195,35 @@ class Rentman
             }
         }
         $this->areas = $areas;
+
+        return $this;
+    }
+
+    /**
+     * Get the value of categories
+     */
+    public function getCategories()
+    {
+        return $this->categories;
+    }
+
+    /**
+     * Set the value of categories
+     *
+     * @return  self
+     */
+    public function setCategories()
+    {
+        $categories = [];
+        if (isset($this->getParsedArrayData()['Categories'])) {
+            if (isset($this->getParsedArrayData()['Categories']['Category'])) {
+                foreach ($this->getParsedArrayData()['Categories']['Category'] as $key => $category) {
+                    $parsed = array_change_key_case($category, CASE_LOWER);
+                    $categories[(int)$parsed['id']] = $parsed['name'];
+                }
+            }
+        }
+        $this->categories = $categories;
 
         return $this;
     }

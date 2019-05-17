@@ -63,7 +63,7 @@
 			<Brochure></Brochure>
 			<Gloc>51.5200583940916,-0.101951634593772</Gloc>
 			<Nearbyamenities></Nearbyamenities>
-			<Categoryid>0.00</Categoryid>
+			<Categoryid>1.00</Categoryid>
 			<Negotiatorname></Negotiatorname>
 			<Negotiatoremail></Negotiatoremail>
 			<Negotiatormobile></Negotiatormobile>
@@ -150,7 +150,7 @@
 <Distance Unit="Miles">0.00</Distance>
 </Amenity>
 			</Nearbyamenities>
-			<Categoryid>0.00</Categoryid>
+			1
 			<Negotiatorname></Negotiatorname>
 			<Negotiatoremail></Negotiatoremail>
 			<Negotiatormobile></Negotiatormobile>
@@ -221,7 +221,7 @@
 			<Brochure></Brochure>
 			<Gloc>51.5471206363435,-0.0563033196428364</Gloc>
 			<Nearbyamenities></Nearbyamenities>
-			<Categoryid>0.00</Categoryid>
+			1
 			<Negotiatorname></Negotiatorname>
 			<Negotiatoremail></Negotiatoremail>
 			<Negotiatormobile></Negotiatormobile>
@@ -292,7 +292,7 @@
 			<Brochure></Brochure>
 			<Gloc>,</Gloc>
 			<Nearbyamenities></Nearbyamenities>
-			<Categoryid>0.00</Categoryid>
+			1
 			<Negotiatorname></Negotiatorname>
 			<Negotiatoremail></Negotiatoremail>
 			<Negotiatormobile></Negotiatormobile>
@@ -363,7 +363,7 @@
 			<Brochure></Brochure>
 			<Gloc>51.5133169725267,-0.189712858990898</Gloc>
 			<Nearbyamenities></Nearbyamenities>
-			<Categoryid>0.00</Categoryid>
+			1
 			<Negotiatorname></Negotiatorname>
 			<Negotiatoremail></Negotiatoremail>
 			<Negotiatormobile></Negotiatormobile>
@@ -441,4 +441,42 @@
 <Type>School</Type>
 </Types>
 </Amenity></Amenities>
+<Categories>
+<Category>
+<Id>1.00</Id>
+<Name>Residential</Name>
+</Category>
+<Category>
+<Id>2.00</Id>
+<Name>Commercial</Name>
+</Category>
+<Category>
+<Id>3.00</Id>
+<Name>Holiday Apartments</Name>
+</Category>
+<Category>
+<Id>4.00</Id>
+<Name>Buy to Let</Name>
+</Category>
+<Category>
+<Id>5.00</Id>
+<Name>Development</Name>
+</Category>
+<Category>
+<Id>6.00</Id>
+<Name>Other Investment</Name>
+</Category>
+<Category>
+<Id>7.00</Id>
+<Name>Industrial</Name>
+</Category>
+<Category>
+<Id>8.00</Id>
+<Name>Shop</Name>
+</Category>
+<Category>
+<Id>9.00</Id>
+<Name>Office</Name>
+</Category>
+</Categories>
 </Rentman>

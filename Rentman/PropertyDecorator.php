@@ -9,7 +9,7 @@ class PropertyDecorator
     {
     }
 
-    public function decorate(array $amenityOptions = [], array $areaOptions = [])
+    public function decorate(array $categoryOptions = [], array $amenityOptions = [], array $areaOptions = [])
     {
         $this->setRentorBuy();
         $this->transformed['ref_number'] = $this->setValueByKey('Refnumber');
@@ -70,8 +70,6 @@ class PropertyDecorator
         $this->transformed['featured'] = $this->setValueByBooleanString('Featured');
         $this->transformed['brochure'] = fullFilePath($this->propertyData['Brochure']);
         $this->transformed['lat_lng'] = $this->propertyData['Gloc'];
-        //TODO NEARBY AMENITIES
-        //TODO CATEGORY ID / CATEGORIES
         $this->transformed['negotiator_name'] = $this->propertyData['Negotiatorname'];
         $this->transformed['negotiator_email'] = $this->propertyData['Negotiatoremail'];
         $this->transformed['negotiator_mobile'] = $this->propertyData['Negotiatormobile'];
@@ -81,6 +79,7 @@ class PropertyDecorator
         $this->setMedia();
         $this->setOther();
         $this->setBulletpoints();
+        $this->setCategory($categoryOptions);
         return $this->getTransformed();
     }
     
@@ -246,6 +245,19 @@ class PropertyDecorator
         return $this;
     }
 
+    public function setCategory(array $categoryOptions = [])
+    {
+        $cat = '';
+        if (isset($this->propertyData['Categoryid'])) {
+            $catId = (int)$this->propertyData['Categoryid'];
+            if (isset($categoryOptions[$catId])) {
+                $cat = $categoryOptions[$catId];
+            }
+        }
+        $this->transformed['category'] = $cat;
+        return $this;
+    }
+    
     /**
      * Get the value of propertyData
      */
