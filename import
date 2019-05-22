@@ -1,0 +1,51 @@
+#!/usr/bin/env php
+<?php
+require __DIR__.'/bootstrap.php';
+use Rentman\Rentman;
+
+echo "IMPORTING\n";
+$ftpDir = __DIR__.'/ftp';
+$ftpBinDir = __DIR__.'/ftp-bin';
+$publicDir = __DIR__.'/public';
+
+if (!file_exists($ftpDir)) {
+    die("NO FTP DIRECTORY AVAILABLE");
+}
+
+if (file_exists($ftpBinDir)) {
+    die("IMPORT ALREADY IN PROGRESS");
+}
+chmod($ftpDir, 0755);
+rename($ftpDir, $ftpBinDir); // copy to a bin dir to handle the upload
+mkdir($ftpDir, 0755, true);
+chmod($ftpDir, 0755);
+chmod($ftpBinDir, 0755);
+//have we got an xml file to parse
+$xmlfile = "";
+foreach (scandir($ftpBinDir) as $file) {
+    $ext = pathinfo($file, PATHINFO_EXTENSION);
+    if ($ext == 'xml') {
+        $xmlfile = $ftpBinDir.'/'.$file;
+    }
+}
+if ($xmlfile != '' && file_exists($xmlfile)) {
+    try {
+        $jsonFile = $ftpBinDir.'/properties.json';
+        fopen($jsonFile, 'w+');
+        $rentman = new Rentman($xmlfile);
+        $transformed = $rentman->buildTransformedDataArray();
+        //header('Content-Type: application/json');
+        file_put_contents($jsonFile, json_encode($transformed['properties']));
+        
+        rename($publicDir, $publicDir.'-bin'); //move the public to public-bin
+        rename($ftpBinDir, $publicDir); //make ftpbin new public dir
+        chmod($publicDir, 0755);
+
+        deleteDir($publicDir.'-bin'); //get rid of old public dir
+        echo "IMPORTED SUCCESSFULLY";
+    } catch (\Exception $e) {
+        die($e->getMessage);
+    }
+} else {
+    die("No XML file found");
+}

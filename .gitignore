@@ -1,3 +1,4 @@
 develop
 vendor
 .phpunit.result.cache
+# ftp

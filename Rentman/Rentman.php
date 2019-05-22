@@ -49,6 +49,11 @@ class Rentman
             $decorator->setPropertyData($property);
             $transformed['properties'][] = $decorator->decorate($this->getCategories(), $this->getAmenities(), $this->getAreas());
         }
+        $foo = usort($transformed['properties'], function ($a, $b) {
+            $t1 = strtotime($a['created']);
+            $t2 = strtotime($b['created']);
+            return $t1 - $t2;
+        });
         return $transformed;
     }
     /**
