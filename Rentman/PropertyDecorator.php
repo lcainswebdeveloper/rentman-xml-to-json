@@ -123,6 +123,7 @@ class PropertyDecorator
             }
         }
         $this->transformed['media'] = $media;
+        $this->transformed['primary_image'] = (isset($media[0])) ? $media[0]['file']: '';
         return $this;
     }
 
