@@ -12,13 +12,13 @@ class PropertyDecorator
     public function decorate(array $categoryOptions = [], array $amenityOptions = [], array $areaOptions = [])
     {
         $this->setRentorBuy();
-        $this->transformed['ref_number'] = $this->setValueByKey('Refnumber');
+        $this->transformed['ref_number'] = (int)$this->setValueByKey('Refnumber');
         $this->transformed['location'] = $this->setLocation();
         $this->transformed['type'] = $this->setType();
         $this->transformed['commercial'] = $this->setCommercialBoolean();
         $this->transformed['bedrooms'] = $this->setBedRooms();
-        $this->transformed['baths'] = $this->setValueByKey('Baths');
-        $this->transformed['receptions'] = $this->setValueByKey('Receps');
+        $this->transformed['baths'] = (int)$this->setValueByKey('Baths');
+        $this->transformed['receptions'] = (int)$this->setValueByKey('Receps');
         $this->transformed['furnished'] = $this->setValueByKey('Furnished');
         $this->transformed['garage'] = $this->setValueByBooleanString('Garage');
         $this->transformed['parking'] = $this->setValueByBooleanString('Parking');
