@@ -1,5 +1,5 @@
 {
-    "name": "lcainswebdevelop/rentman-jsonify",
+    "name": "lcainswebdeveloper/rentman-xml-to-json",
     "description": "Simple service for converting rentman xml to json, plus providing an endpoint",
     "type": "library",
     "require": {
