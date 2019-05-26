@@ -1,0 +1,25 @@
+{
+    "name": "lcainswebdeveloper/rentman-xml-to-json",
+    "prefer-stable": false,
+    "description": "Simple service for converting rentman xml to json, plus providing an endpoint",
+    "type": "library",
+    "require": {
+        "vlucas/phpdotenv": "^3.3",
+        "nathanmac/parser": "^4.3",
+        "lcainswebdeveloper/rentman-xml-to-json": "0.1.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^8.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Rentman\\": "Rentman/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Lewis Cains",
+            "email": "lewis@lcainswebdeveloper.co.uk"
+        }
+    ]
+}
