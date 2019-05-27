@@ -19,7 +19,7 @@ class PropertyDecorator
         $this->transformed['bedrooms'] = $this->setBedRooms();
         $this->transformed['baths'] = (int)$this->setValueByKey('Baths');
         $this->transformed['receptions'] = (int)$this->setValueByKey('Receps');
-        $this->transformed['furnished'] = $this->setValueByKey('Furnished');
+        $this->transformed['furnished'] = $this->setFurnished();
         $this->transformed['garage'] = $this->setValueByBooleanString('Garage');
         $this->transformed['parking'] = $this->setValueByBooleanString('Parking');
         $this->transformed['garden'] = $this->setValueByBooleanString('Garden');
@@ -42,6 +42,7 @@ class PropertyDecorator
         $this->transformed['lease_length'] = $this->setValueByKey('Leaselength');
         $this->transformed['shortlet'] = $this->setValueByBooleanString('Shortlet');
         $this->transformed['longlet'] = $this->setValueByBooleanString('Longlet');
+        $this->transformed['let_type'] = ($this->transformed['longlet'] == true) ? 'Long Term': 'Short Term';
         $this->transformed['student_year'] = $this->setValueByBooleanString('Studentyear');
         $this->transformed['dss_allowed'] = $this->setValueByBooleanString('Dssallowed');
         $this->transformed['price'] = $this->propertyData['Price']['#text'];
@@ -155,6 +156,21 @@ class PropertyDecorator
         $this->transformed['bulletpoints'] = $bulletpoints;
     }
 
+    public function setFurnished()
+    {
+        $furnished = (int)$this->propertyData['Furnished'];
+        $options = [
+            0 =>  'Unknown',
+            1 =>  'Furnished',
+            2 =>  'Unfurnished',
+            3 =>  'Part Furnished',
+            4 =>  'Available as either Furnished or Unfurnished',
+        ];
+        if (isset($options[$furnished])) {
+            return $options[$furnished];
+        }
+        return 'Unknown';
+    }
     public function setBedrooms()
     {
         $bedrooms = [
