@@ -1,6 +1,681 @@
 <?xml version="1.0" encoding="iso-8859-1" ?> 
-<Rentman Version="2.6" Agent="" Password="" Date="20190510">
+<Rentman Version="2.6" Agent="" Password="" Date="20190613">
 	<Properties>
+		<Property>
+			<Rentorbuy>1.00</Rentorbuy>
+			<Refnumber>1156.00</Refnumber>
+			<Number>Flat E, 255</Number>
+			<Street>Kentish Town Rd</Street>
+			<Address3></Address3>
+			<Address4>London</Address4>
+			<Postcode>NW5 2JT</Postcode>
+			<Area>Camden</Area>
+			<Tube></Tube>
+			<Type Commercial="False">Flat</Type>
+			<Beds>2.00</Beds>
+			<Singles>0.00</Singles>
+			<Doubles>2.00</Doubles>
+			<Baths>1.00</Baths>
+			<Receps>1.00</Receps>
+			<Furnished>2.00</Furnished>
+			<Garage>False</Garage>
+			<Parking>False</Parking>
+			<Garden>False</Garden>
+			<Balcony>False</Balcony>
+			<Shower>True</Shower>
+			<Sep_wc>False</Sep_wc>
+			<Washmachine>True</Washmachine>
+			<Dishwasher>True</Dishwasher>
+			<Burglaralarm>False</Burglaralarm>
+			<Petsallowed>False</Petsallowed>
+			<Smokersallowed>False</Smokersallowed>
+			<Floor></Floor>
+			<Heating>GCH</Heating>
+			<Available>05/11/2018</Available>
+			<Status LetByUs="False" SoldByUs="False">Available</Status>
+			<Servicecharges></Servicecharges>
+			<Leaselength>0.00</Leaselength>
+			<Shortlet>False</Shortlet>
+			<Longlet>False</Longlet>
+			<Studentyear>False</Studentyear>
+			<Sharedcomm></Sharedcomm>
+			<Dssallowed>False</Dssallowed>
+			<Price Per="Month" Qualifier="1">0</Price>
+			<Rent Qualifier="1" Period="Month">0</Rent>
+			<Saleprice></Saleprice>
+			<Tenantfees><![CDATA[
+We require a Holding Deposit equal to 1 week&#39;s rent (approx &#163;0.00) to secure the property. This holding deposit will be used towards the security deposit and rent in advance if the tenancy proceeds.
+
+This property requires a Security Deposit of 5 week&#39;s rent (approx  &#163;0.00) 
+
+
+The following fees may also be charged during your tenancy
+
+Lost/replacement keys/security fobs
+Rent arrears fees/charges
+Change of tenancy
+Early termination fee
+
+]]></Tenantfees>
+			<Condition>0.00</Condition>
+			<Age></Age>
+			<Description><![CDATA[]]></Description>
+			<Comments><![CDATA[]]></Comments>
+			<Strapline><![CDATA[Studio]]></Strapline>
+			<Map></Map>
+			<Floorplan></Floorplan>
+			<Url>?1156</Url>
+			<Created>16/10/2018</Created>
+			<Managed>True</Managed>
+			<Epc>_1156_EPC.jpg</Epc>
+			<Branch></Branch>
+			<Branchtel></Branchtel>
+			<Evt></Evt>
+			<Featured>False</Featured>
+			<Brochure></Brochure>
+			<Gloc>51.5482816511464,-0.141536901230882</Gloc>
+			<Nearbyamenities></Nearbyamenities>
+			<Categoryid>0.00</Categoryid>
+			<Negotiatorname></Negotiatorname>
+			<Negotiatoremail></Negotiatoremail>
+			<Negotiatormobile></Negotiatormobile>
+			<Thoughts><![CDATA[]]></Thoughts>
+			<Media><Item Caption="">_1156_01.jpg</Item><Item Caption="">_1156_02.jpg</Item><Item Caption="">_1156_03.jpg</Item><Item Caption="">_1156_04.jpg</Item><Item Caption="">_1156_05.jpg</Item><Item Caption="">_1156_06.jpg</Item></Media><Other><Item Caption="">_1156_01.jpg</Item><Item Caption="">_1156_02.jpg</Item><Item Caption="">_1156_03.jpg</Item><Item Caption="">_1156_04.jpg</Item><Item Caption="">_1156_05.jpg</Item><Item Caption="">_1156_06.jpg</Item></Other><Bulletpoints><Bulletpoint>Flat</Bulletpoint>
+				<Bulletpoint>2 Beds</Bulletpoint>
+				<Bulletpoint>1 Reception</Bulletpoint>
+				<Bulletpoint>1 Bathroom</Bulletpoint>
+				<Bulletpoint>Energy Rating : D</Bulletpoint>
+				<Bulletpoint>Unfurnished</Bulletpoint>
+				<Bulletpoint>Shower</Bulletpoint>
+				<Bulletpoint>Washing Machine</Bulletpoint>
+				<Bulletpoint>Dishwasher</Bulletpoint>
+			</Bulletpoints><Rooms>
+				<Room>
+					<Title>Living/Dining Room</Title>
+					<Location></Location>
+					<Description></Description>
+					<Imperial1>20.80</Imperial1>
+					<Imperial2>15.75</Imperial2>
+					<Metric1>6.34</Metric1>
+					<Metric2>4.80</Metric2>
+				</Room>
+				<Room>
+					<Title>Bedroom 1</Title>
+					<Location></Location>
+					<Description></Description>
+					<Imperial1>14.27</Imperial1>
+					<Imperial2>8.99</Imperial2>
+					<Metric1>4.35</Metric1>
+					<Metric2>2.74</Metric2>
+				</Room>
+				<Room>
+					<Title>Bedroom 2</Title>
+					<Location></Location>
+					<Description></Description>
+					<Imperial1>11.68</Imperial1>
+					<Imperial2>9.58</Imperial2>
+					<Metric1>3.56</Metric1>
+					<Metric2>2.92</Metric2>
+				</Room>
+			</Rooms>
+			<Nearbyamenities></Nearbyamenities><Events>
+			</Events></Property>
+		<Property>
+			<Rentorbuy>1.00</Rentorbuy>
+			<Refnumber>1166.00</Refnumber>
+			<Number>1</Number>
+			<Street>Hawley Mews</Street>
+			<Address3></Address3>
+			<Address4>London</Address4>
+			<Postcode>NW1 8BF</Postcode>
+			<Area>Camden</Area>
+			<Tube></Tube>
+			<Type Commercial="False">Flat</Type>
+			<Beds>2.00</Beds>
+			<Singles>0.00</Singles>
+			<Doubles>2.00</Doubles>
+			<Baths>1.00</Baths>
+			<Receps>1.00</Receps>
+			<Furnished>2.00</Furnished>
+			<Garage>False</Garage>
+			<Parking>False</Parking>
+			<Garden>False</Garden>
+			<Balcony>False</Balcony>
+			<Shower>True</Shower>
+			<Sep_wc>False</Sep_wc>
+			<Washmachine>True</Washmachine>
+			<Dishwasher>False</Dishwasher>
+			<Burglaralarm>False</Burglaralarm>
+			<Petsallowed>False</Petsallowed>
+			<Smokersallowed>False</Smokersallowed>
+			<Floor>1 &amp;</Floor>
+			<Heating>GCH</Heating>
+			<Available>15/07/2019</Available>
+			<Status LetByUs="False" SoldByUs="False">Available</Status>
+			<Servicecharges></Servicecharges>
+			<Leaselength>0.00</Leaselength>
+			<Shortlet>False</Shortlet>
+			<Longlet>False</Longlet>
+			<Studentyear>False</Studentyear>
+			<Sharedcomm></Sharedcomm>
+			<Dssallowed>False</Dssallowed>
+			<Price Per="Month" Qualifier="1">1885</Price>
+			<Rent Qualifier="1" Period="Month">1885</Rent>
+			<Saleprice></Saleprice>
+			<Tenantfees><![CDATA[
+We require a Holding Deposit equal to 1 week&#39;s rent (approx &#163;435.00) to secure the property. This holding deposit will be used towards the security deposit and rent in advance if the tenancy proceeds.
+
+This property requires a Security Deposit of 5 week&#39;s rent (approx  &#163;2175.00) 
+
+
+The following fees may also be charged during your tenancy
+
+Lost/replacement keys/security fobs
+Rent arrears fees/charges
+Change of tenancy
+Early termination fee
+
+]]></Tenantfees>
+			<Condition>0.00</Condition>
+			<Age></Age>
+			<Description><![CDATA[Extremely spacious two double bedroom split level maisonette which is ideally located in the vibrant area of Camden & within a few minutes walk to Chalk Farm Road & Camden St - available 15th July 19]]></Description>
+			<Comments><![CDATA[Comprising of:-<BR/><BR/>Two spacious double bedrooms with grey coloured carpet<BR/>Spacious reception room with wooden flooring throughout incl. Fireplace<BR/>Separate eat-in fully equipped kitchen incl. full size fridge/freezer & washer/dryer<BR/>Fully tiled bathroom with shower over bath incl. heated towel rail<BR/><BR/>This property is available 15th July 2019, offered unfurnished for a long term rental.]]></Comments>
+			<Strapline><![CDATA[2 Bed Unfurnished Flat]]></Strapline>
+			<Map></Map>
+			<Floorplan></Floorplan>
+			<Url>?1166</Url>
+			<Created>16/10/2018</Created>
+			<Managed>True</Managed>
+			<Epc>_1166_EPC.jpg</Epc>
+			<Branch></Branch>
+			<Branchtel></Branchtel>
+			<Evt></Evt>
+			<Featured>False</Featured>
+			<Brochure></Brochure>
+			<Gloc>51.5423915642874,-0.146651264800458</Gloc>
+			<Nearbyamenities></Nearbyamenities>
+			<Categoryid>0.00</Categoryid>
+			<Negotiatorname></Negotiatorname>
+			<Negotiatoremail></Negotiatoremail>
+			<Negotiatormobile></Negotiatormobile>
+			<Thoughts><![CDATA[]]></Thoughts>
+			<Media><Item Caption="">_1166_01.jpg</Item><Item Caption="">_1166_02.jpg</Item><Item Caption="">_1166_03.jpg</Item></Media><Other><Item Caption="">_1166_01.jpg</Item><Item Caption="">_1166_02.jpg</Item><Item Caption="">_1166_03.jpg</Item></Other><Bulletpoints><Bulletpoint>Flat</Bulletpoint>
+				<Bulletpoint>2 Beds</Bulletpoint>
+				<Bulletpoint>1 Reception</Bulletpoint>
+				<Bulletpoint>1 Bathroom</Bulletpoint>
+				<Bulletpoint>Energy Rating : D</Bulletpoint>
+				<Bulletpoint>Unfurnished</Bulletpoint>
+				<Bulletpoint>Shower</Bulletpoint>
+				<Bulletpoint>Washing Machine</Bulletpoint>
+			</Bulletpoints><Rooms>
+				<Room>
+					<Title>Kitchen</Title>
+					<Location></Location>
+					<Description></Description>
+					<Imperial1>12.17</Imperial1>
+					<Imperial2>11.84</Imperial2>
+					<Metric1>3.71</Metric1>
+					<Metric2>3.61</Metric2>
+				</Room>
+				<Room>
+					<Title>Living/Dining Room</Title>
+					<Location></Location>
+					<Description></Description>
+					<Imperial1>16.96</Imperial1>
+					<Imperial2>12.63</Imperial2>
+					<Metric1>5.17</Metric1>
+					<Metric2>3.85</Metric2>
+				</Room>
+				<Room>
+					<Title>Bedroom 1</Title>
+					<Location></Location>
+					<Description></Description>
+					<Imperial1>16.08</Imperial1>
+					<Imperial2>12.70</Imperial2>
+					<Metric1>4.90</Metric1>
+					<Metric2>3.87</Metric2>
+				</Room>
+				<Room>
+					<Title>Bedroom 2</Title>
+					<Location></Location>
+					<Description></Description>
+					<Imperial1>12.07</Imperial1>
+					<Imperial2>8.79</Imperial2>
+					<Metric1>3.68</Metric1>
+					<Metric2>2.68</Metric2>
+				</Room>
+				<Room>
+					<Title>Bathroom</Title>
+					<Location></Location>
+					<Description></Description>
+					<Imperial1>0.00</Imperial1>
+					<Imperial2>0.00</Imperial2>
+					<Metric1>0.00</Metric1>
+					<Metric2>0.00</Metric2>
+				</Room>
+			</Rooms>
+			<Nearbyamenities></Nearbyamenities><Events>
+			</Events></Property>
+		<Property>
+			<Rentorbuy>1.00</Rentorbuy>
+			<Refnumber>1167.00</Refnumber>
+			<Number>3a</Number>
+			<Street>Hawley Mews</Street>
+			<Address3></Address3>
+			<Address4>London</Address4>
+			<Postcode>NW1 8BF</Postcode>
+			<Area>Camden</Area>
+			<Tube>Camden Town</Tube>
+			<Type Commercial="False">Flat</Type>
+			<Beds>3.00</Beds>
+			<Singles>1.00</Singles>
+			<Doubles>2.00</Doubles>
+			<Baths>2.00</Baths>
+			<Receps>0.00</Receps>
+			<Furnished>2.00</Furnished>
+			<Garage>False</Garage>
+			<Parking>False</Parking>
+			<Garden>False</Garden>
+			<Balcony>False</Balcony>
+			<Shower>True</Shower>
+			<Sep_wc>False</Sep_wc>
+			<Washmachine>True</Washmachine>
+			<Dishwasher>False</Dishwasher>
+			<Burglaralarm>False</Burglaralarm>
+			<Petsallowed>False</Petsallowed>
+			<Smokersallowed>False</Smokersallowed>
+			<Floor>2</Floor>
+			<Heating>GCH</Heating>
+			<Available>30/05/2019</Available>
+			<Status LetByUs="False" SoldByUs="False">Available</Status>
+			<Servicecharges></Servicecharges>
+			<Leaselength>0.00</Leaselength>
+			<Shortlet>False</Shortlet>
+			<Longlet>False</Longlet>
+			<Studentyear>False</Studentyear>
+			<Sharedcomm></Sharedcomm>
+			<Dssallowed>False</Dssallowed>
+			<Price Per="Month" Qualifier="1">1994</Price>
+			<Rent Qualifier="1" Period="Month">1994</Rent>
+			<Saleprice></Saleprice>
+			<Tenantfees><![CDATA[
+We require a Holding Deposit equal to 1 week&#39;s rent (approx &#163;460.15) to secure the property. This holding deposit will be used towards the security deposit and rent in advance if the tenancy proceeds.
+
+This property requires a Security Deposit of 5 week&#39;s rent (approx  &#163;2300.77) 
+
+
+The following fees may also be charged during your tenancy
+
+Lost/replacement keys/security fobs
+Rent arrears fees/charges
+Change of tenancy
+Early termination fee
+
+]]></Tenantfees>
+			<Condition>0.00</Condition>
+			<Age></Age>
+			<Description><![CDATA[A beautifully refurbished and spacious split level two bedroom maisonette located in the vibrant area of Camden, close to Chalk Farm and Camden tube stations.]]></Description>
+			<Comments><![CDATA[Comprising of:<BR/><BR/>Two double bedrooms with built-in wardrobes<BR/>Two en-suite shower rooms<BR/>Cloakroom<BR/>Fully fitted kitchen with breakfast bar<BR/>Separate spacious lounge with feature fireplace<BR/>Laundry room<BR/>Double glazed windows<BR/>Ideal for professional sharers<BR/>Refurbished to a high standard]]></Comments>
+			<Strapline><![CDATA[3 Bed Unfurnished Flat]]></Strapline>
+			<Map></Map>
+			<Floorplan></Floorplan>
+			<Url>?1167</Url>
+			<Created>16/10/2018</Created>
+			<Managed>True</Managed>
+			<Epc>_1167_EPC.jpg</Epc>
+			<Branch></Branch>
+			<Branchtel></Branchtel>
+			<Evt></Evt>
+			<Featured>False</Featured>
+			<Brochure></Brochure>
+			<Gloc>51.5423915642874,-0.146651264800458</Gloc>
+			<Nearbyamenities></Nearbyamenities>
+			<Categoryid>0.00</Categoryid>
+			<Negotiatorname></Negotiatorname>
+			<Negotiatoremail></Negotiatoremail>
+			<Negotiatormobile></Negotiatormobile>
+			<Thoughts><![CDATA[]]></Thoughts>
+			<Media><Item Caption="">_1167_01.jpg</Item><Item Caption="">_1167_02.jpg</Item><Item Caption="">_1167_03.jpg</Item><Item Caption="">_1167_04.jpg</Item><Item Caption="">_1167_05.jpg</Item><Item Caption="">_1167_06.jpg</Item><Item Caption="">_1167_07.jpg</Item></Media><Other><Item Caption="">_1167_01.jpg</Item><Item Caption="">_1167_02.jpg</Item><Item Caption="">_1167_03.jpg</Item><Item Caption="">_1167_04.jpg</Item><Item Caption="">_1167_05.jpg</Item><Item Caption="">_1167_06.jpg</Item><Item Caption="">_1167_07.jpg</Item></Other><Bulletpoints><Bulletpoint>Flat</Bulletpoint>
+				<Bulletpoint>3 Beds</Bulletpoint>
+				<Bulletpoint>2 Bathrooms</Bulletpoint>
+				<Bulletpoint>Energy Rating : D</Bulletpoint>
+				<Bulletpoint>Unfurnished</Bulletpoint>
+				<Bulletpoint>Shower</Bulletpoint>
+				<Bulletpoint>Washing Machine</Bulletpoint>
+			</Bulletpoints><Rooms>
+				<Room>
+					<Title>Bedroom 1</Title>
+					<Location></Location>
+					<Description></Description>
+					<Imperial1>0.00</Imperial1>
+					<Imperial2>0.00</Imperial2>
+					<Metric1>0.00</Metric1>
+					<Metric2>0.00</Metric2>
+				</Room>
+				<Room>
+					<Title>Bedroom 3</Title>
+					<Location></Location>
+					<Description></Description>
+					<Imperial1>8.69</Imperial1>
+					<Imperial2>6.23</Imperial2>
+					<Metric1>2.65</Metric1>
+					<Metric2>1.90</Metric2>
+				</Room>
+				<Room>
+					<Title>Kitchen</Title>
+					<Location></Location>
+					<Description></Description>
+					<Imperial1>11.71</Imperial1>
+					<Imperial2>11.45</Imperial2>
+					<Metric1>3.57</Metric1>
+					<Metric2>3.49</Metric2>
+				</Room>
+				<Room>
+					<Title>Living Room</Title>
+					<Location></Location>
+					<Description></Description>
+					<Imperial1>13.35</Imperial1>
+					<Imperial2>17.42</Imperial2>
+					<Metric1>4.07</Metric1>
+					<Metric2>5.31</Metric2>
+				</Room>
+				<Room>
+					<Title>Bedroom 2</Title>
+					<Location></Location>
+					<Description></Description>
+					<Imperial1>0.00</Imperial1>
+					<Imperial2>0.00</Imperial2>
+					<Metric1>0.00</Metric1>
+					<Metric2>0.00</Metric2>
+				</Room>
+			</Rooms>
+			<Nearbyamenities></Nearbyamenities><Events>
+			</Events></Property>
+		<Property>
+			<Rentorbuy>1.00</Rentorbuy>
+			<Refnumber>1283.00</Refnumber>
+			<Number>1st Floor Flat, 26</Number>
+			<Street>Queens Mews</Street>
+			<Address3></Address3>
+			<Address4>London</Address4>
+			<Postcode>W2 4BY</Postcode>
+			<Area>Bayswater</Area>
+			<Tube>Bayswater</Tube>
+			<Type Commercial="False">Flat</Type>
+			<Beds>2.00</Beds>
+			<Singles>0.00</Singles>
+			<Doubles>2.00</Doubles>
+			<Baths>1.00</Baths>
+			<Receps>1.00</Receps>
+			<Furnished>0.00</Furnished>
+			<Garage>False</Garage>
+			<Parking>False</Parking>
+			<Garden>False</Garden>
+			<Balcony>True</Balcony>
+			<Shower>True</Shower>
+			<Sep_wc>False</Sep_wc>
+			<Washmachine>True</Washmachine>
+			<Dishwasher>True</Dishwasher>
+			<Burglaralarm>False</Burglaralarm>
+			<Petsallowed>False</Petsallowed>
+			<Smokersallowed>False</Smokersallowed>
+			<Floor>1</Floor>
+			<Heating>GCH</Heating>
+			<Available>01/06/2019</Available>
+			<Status LetByUs="False" SoldByUs="False">Available</Status>
+			<Servicecharges></Servicecharges>
+			<Leaselength>0.00</Leaselength>
+			<Shortlet>False</Shortlet>
+			<Longlet>False</Longlet>
+			<Studentyear>False</Studentyear>
+			<Sharedcomm></Sharedcomm>
+			<Dssallowed>False</Dssallowed>
+			<Price Per="Month" Qualifier="1">2037</Price>
+			<Rent Qualifier="1" Period="Month">2037</Rent>
+			<Saleprice></Saleprice>
+			<Tenantfees><![CDATA[
+We require a Holding Deposit equal to 1 week&#39;s rent (approx &#163;470.08) to secure the property. This holding deposit will be used towards the security deposit and rent in advance if the tenancy proceeds.
+
+This property requires a Security Deposit of 5 week&#39;s rent (approx  &#163;2350.38) 
+
+
+The following fees may also be charged during your tenancy
+
+Lost/replacement keys/security fobs
+Rent arrears fees/charges
+Change of tenancy
+Early termination fee
+
+]]></Tenantfees>
+			<Condition>0.00</Condition>
+			<Age></Age>
+			<Description><![CDATA[Rarely available - two double bedroom first floor mews property with terrace, located a couple of minutes from the vibrant area of Bayswater & Queensway and situated in a cobbled mews, available as from 1st June 2019, for a 6 Months tenancy]]></Description>
+			<Comments><![CDATA[Comprising of:-<BR/><BR/> <BR/><BR/>- Two double bedrooms with neutral coloured carpet<BR/><BR/>- Semi open plan fully fitted & equipped kitchen incl. full size fridge/freezer, dishwasher & washing machine<BR/><BR/>- Reception room with wooden flooring (can be split into reception/diner)<BR/><BR/>- Bathroom with shower over bath incl. heated towel rail<BR/><BR/>- Terrace]]></Comments>
+			<Strapline><![CDATA[Studio]]></Strapline>
+			<Map></Map>
+			<Floorplan></Floorplan>
+			<Url>?1283</Url>
+			<Created>16/10/2018</Created>
+			<Managed>True</Managed>
+			<Epc>_1283_EPC.jpg</Epc>
+			<Branch></Branch>
+			<Branchtel></Branchtel>
+			<Evt></Evt>
+			<Featured>False</Featured>
+			<Brochure></Brochure>
+			<Gloc>,</Gloc>
+			<Nearbyamenities></Nearbyamenities>
+			<Categoryid>0.00</Categoryid>
+			<Negotiatorname></Negotiatorname>
+			<Negotiatoremail></Negotiatoremail>
+			<Negotiatormobile></Negotiatormobile>
+			<Thoughts><![CDATA[]]></Thoughts>
+			<Media></Media><Other></Other><Bulletpoints><Bulletpoint>Flat</Bulletpoint>
+				<Bulletpoint>2 Beds</Bulletpoint>
+				<Bulletpoint>1 Reception</Bulletpoint>
+				<Bulletpoint>1 Bathroom</Bulletpoint>
+				<Bulletpoint>Shower</Bulletpoint>
+				<Bulletpoint>Balcony</Bulletpoint>
+				<Bulletpoint>Washing Machine</Bulletpoint>
+				<Bulletpoint>Dishwasher</Bulletpoint>
+			</Bulletpoints><Rooms>
+				<Room>
+					<Title>Kitchen</Title>
+					<Location></Location>
+					<Description></Description>
+					<Imperial1>8.99</Imperial1>
+					<Imperial2>8.20</Imperial2>
+					<Metric1>2.74</Metric1>
+					<Metric2>2.50</Metric2>
+				</Room>
+				<Room>
+					<Title>Living/Dining Room</Title>
+					<Location></Location>
+					<Description></Description>
+					<Imperial1>14.80</Imperial1>
+					<Imperial2>10.37</Imperial2>
+					<Metric1>4.51</Metric1>
+					<Metric2>3.16</Metric2>
+				</Room>
+				<Room>
+					<Title>Bedroom 1</Title>
+					<Location></Location>
+					<Description></Description>
+					<Imperial1>14.63</Imperial1>
+					<Imperial2>9.91</Imperial2>
+					<Metric1>4.46</Metric1>
+					<Metric2>3.02</Metric2>
+				</Room>
+				<Room>
+					<Title>Bedroom 2</Title>
+					<Location></Location>
+					<Description></Description>
+					<Imperial1>10.43</Imperial1>
+					<Imperial2>9.91</Imperial2>
+					<Metric1>3.18</Metric1>
+					<Metric2>3.02</Metric2>
+				</Room>
+				<Room>
+					<Title>Bathroom</Title>
+					<Location></Location>
+					<Description></Description>
+					<Imperial1>0.00</Imperial1>
+					<Imperial2>0.00</Imperial2>
+					<Metric1>0.00</Metric1>
+					<Metric2>0.00</Metric2>
+				</Room>
+			</Rooms>
+			<Nearbyamenities></Nearbyamenities><Events>
+			</Events></Property>
+		<Property>
+			<Rentorbuy>1.00</Rentorbuy>
+			<Refnumber>1438.00</Refnumber>
+			<Number>Flat 6, 90</Number>
+			<Street>Inner Park Road</Street>
+			<Address3></Address3>
+			<Address4>London</Address4>
+			<Postcode>SW19 6DA</Postcode>
+			<Area>Wimbledon</Area>
+			<Tube></Tube>
+			<Type Commercial="False">Flat</Type>
+			<Beds>2.00</Beds>
+			<Singles>0.00</Singles>
+			<Doubles>2.00</Doubles>
+			<Baths>2.00</Baths>
+			<Receps>1.00</Receps>
+			<Furnished>2.00</Furnished>
+			<Garage>False</Garage>
+			<Parking>True</Parking>
+			<Garden>False</Garden>
+			<Balcony>True</Balcony>
+			<Shower>True</Shower>
+			<Sep_wc>False</Sep_wc>
+			<Washmachine>True</Washmachine>
+			<Dishwasher>True</Dishwasher>
+			<Burglaralarm>False</Burglaralarm>
+			<Petsallowed>False</Petsallowed>
+			<Smokersallowed>False</Smokersallowed>
+			<Floor>2</Floor>
+			<Heating>GCH</Heating>
+			<Available>20/07/2019</Available>
+			<Status LetByUs="False" SoldByUs="False">Available</Status>
+			<Servicecharges></Servicecharges>
+			<Leaselength>0.00</Leaselength>
+			<Shortlet>False</Shortlet>
+			<Longlet>False</Longlet>
+			<Studentyear>False</Studentyear>
+			<Sharedcomm></Sharedcomm>
+			<Dssallowed>False</Dssallowed>
+			<Price Per="Month" Qualifier="1">1669</Price>
+			<Rent Qualifier="1" Period="Month">1669</Rent>
+			<Saleprice></Saleprice>
+			<Tenantfees><![CDATA[
+We require a Holding Deposit equal to 1 week&#39;s rent (approx &#163;385.15) to secure the property. This holding deposit will be used towards the security deposit and rent in advance if the tenancy proceeds.
+
+This property requires a Security Deposit of 5 week&#39;s rent (approx  &#163;1925.77) 
+
+
+The following fees may also be charged during your tenancy
+
+Lost/replacement keys/security fobs
+Rent arrears fees/charges
+Change of tenancy
+Early termination fee
+
+]]></Tenantfees>
+			<Condition>0.00</Condition>
+			<Age></Age>
+			<Description><![CDATA[Recently refurbished, stunning modern two double bedroom, two bathroom apartment with balconies. Within walking distance of Wimbledon Village, Wimbledon Common and Southfields for the District line - available 20th July 2019]]></Description>
+			<Comments><![CDATA[Comprising:-<BR/><BR/> <BR/><BR/>- Double bedroom with ensuite bathroom & balcony<BR/><BR/>- Second double bedroom<BR/><BR/>- Modern open plan fully fitted & equipped kitchen incl. full size fridge/freezer, dishwasher & combined washer/dryer<BR/><BR/>- Spacious reception room with wooden flooring<BR/><BR/>- Fully tiled guest bathroom with shower over bath incl. heated towel rail<BR/><BR/>- Large Balcony<BR/><BR/>- Eco build including Solar Panels, Green Roof & Energy Recycling<BR/><BR/>- Private Parking Space<BR/><BR/>- Bicycle Storage<BR/><BR/>-Lift Access]]></Comments>
+			<Strapline><![CDATA[Studio]]></Strapline>
+			<Map></Map>
+			<Floorplan></Floorplan>
+			<Url>?1438</Url>
+			<Created>16/10/2018</Created>
+			<Managed>True</Managed>
+			<Epc>_1438_EPC.jpg</Epc>
+			<Branch></Branch>
+			<Branchtel></Branchtel>
+			<Evt></Evt>
+			<Featured>False</Featured>
+			<Brochure></Brochure>
+			<Gloc>51.4409993,-0.22185</Gloc>
+			<Nearbyamenities></Nearbyamenities>
+			<Categoryid>0.00</Categoryid>
+			<Negotiatorname></Negotiatorname>
+			<Negotiatoremail></Negotiatoremail>
+			<Negotiatormobile></Negotiatormobile>
+			<Thoughts><![CDATA[]]></Thoughts>
+			<Media><Item Caption="">_1438_01.jpg</Item><Item Caption="">_1438_02.jpg</Item><Item Caption="">_1438_03.jpg</Item><Item Caption="">_1438_04.jpg</Item><Item Caption="">_1438_05.jpg</Item><Item Caption="">_1438_06.jpg</Item><Item Caption="">_1438_07.jpg</Item></Media><Other><Item Caption="">_1438_01.jpg</Item><Item Caption="">_1438_02.jpg</Item><Item Caption="">_1438_03.jpg</Item><Item Caption="">_1438_04.jpg</Item><Item Caption="">_1438_05.jpg</Item><Item Caption="">_1438_06.jpg</Item><Item Caption="">_1438_07.jpg</Item></Other><Bulletpoints><Bulletpoint>Flat</Bulletpoint>
+				<Bulletpoint>2 Beds</Bulletpoint>
+				<Bulletpoint>1 Reception</Bulletpoint>
+				<Bulletpoint>2 Bathrooms</Bulletpoint>
+				<Bulletpoint>Energy Rating : B</Bulletpoint>
+				<Bulletpoint>Unfurnished</Bulletpoint>
+				<Bulletpoint>Shower</Bulletpoint>
+				<Bulletpoint>Parking</Bulletpoint>
+				<Bulletpoint>Balcony</Bulletpoint>
+				<Bulletpoint>Lift</Bulletpoint>
+				<Bulletpoint>Washing Machine</Bulletpoint>
+				<Bulletpoint>Dishwasher</Bulletpoint>
+			</Bulletpoints><Rooms>
+				<Room>
+					<Title>Separate Wc</Title>
+					<Location></Location>
+					<Description></Description>
+					<Imperial1>0.00</Imperial1>
+					<Imperial2>0.00</Imperial2>
+					<Metric1>0.00</Metric1>
+					<Metric2>0.00</Metric2>
+				</Room>
+				<Room>
+					<Title>Living/Dining Room</Title>
+					<Location></Location>
+					<Description></Description>
+					<Imperial1>27.69</Imperial1>
+					<Imperial2>12.73</Imperial2>
+					<Metric1>8.44</Metric1>
+					<Metric2>3.88</Metric2>
+				</Room>
+				<Room>
+					<Title>Bedroom 1</Title>
+					<Location></Location>
+					<Description></Description>
+					<Imperial1>11.09</Imperial1>
+					<Imperial2>15.09</Imperial2>
+					<Metric1>3.38</Metric1>
+					<Metric2>4.60</Metric2>
+				</Room>
+				<Room>
+					<Title>Bedroom 2</Title>
+					<Location></Location>
+					<Description></Description>
+					<Imperial1>10.43</Imperial1>
+					<Imperial2>10.30</Imperial2>
+					<Metric1>3.18</Metric1>
+					<Metric2>3.14</Metric2>
+				</Room>
+				<Room>
+					<Title>Bathroom 1</Title>
+					<Location></Location>
+					<Description></Description>
+					<Imperial1>0.00</Imperial1>
+					<Imperial2>0.00</Imperial2>
+					<Metric1>0.00</Metric1>
+					<Metric2>0.00</Metric2>
+				</Room>
+				<Room>
+					<Title>Bathroom 2</Title>
+					<Location></Location>
+					<Description></Description>
+					<Imperial1>0.00</Imperial1>
+					<Imperial2>0.00</Imperial2>
+					<Metric1>0.00</Metric1>
+					<Metric2>0.00</Metric2>
+				</Room>
+			</Rooms>
+			<Nearbyamenities></Nearbyamenities><Events>
+			</Events></Property>
 		<Property>
 			<Rentorbuy>1.00</Rentorbuy>
 			<Refnumber>1150.00</Refnumber>
@@ -15,7 +690,7 @@
 			<Beds>2.00</Beds>
 			<Singles>0.00</Singles>
 			<Doubles>2.00</Doubles>
-			<Baths>2.00</Baths>
+			<Baths>1.00</Baths>
 			<Receps>1.00</Receps>
 			<Furnished>2.00</Furnished>
 			<Garage>False</Garage>
@@ -43,7 +718,19 @@
 			<Price Per="Month" Qualifier="1">2362</Price>
 			<Rent Qualifier="1" Period="Month">2362</Rent>
 			<Saleprice></Saleprice>
-			<Tenantfees><![CDATA[ + other fees may apply.
+			<Tenantfees><![CDATA[
+We require a Holding Deposit equal to 1 week&#39;s rent (approx &#163;545.08) to secure the property. This holding deposit will be used towards the security deposit and rent in advance if the tenancy proceeds.
+
+This property requires a Security Deposit of 5 week&#39;s rent (approx  &#163;2725.38) 
+
+
+The following fees may also be charged during your tenancy
+
+Lost/replacement keys/security fobs
+Rent arrears fees/charges
+Change of tenancy
+Early termination fee
+
 ]]></Tenantfees>
 			<Condition>4.00</Condition>
 			<Age></Age>
@@ -71,23 +758,70 @@
 			<Media><Item Caption="">_1150_01.jpg</Item><Item Caption="">_1150_02.jpg</Item><Item Caption="">_1150_03.jpg</Item><Item Caption="">_1150_04.jpg</Item><Item Caption="">_1150_05.jpg</Item><Item Caption="">_1150_06.jpg</Item></Media><Other><Item Caption="">_1150_01.jpg</Item><Item Caption="">_1150_02.jpg</Item><Item Caption="">_1150_03.jpg</Item><Item Caption="">_1150_04.jpg</Item><Item Caption="">_1150_05.jpg</Item><Item Caption="">_1150_06.jpg</Item></Other><Bulletpoints><Bulletpoint>Flat</Bulletpoint>
 				<Bulletpoint>2 Beds</Bulletpoint>
 				<Bulletpoint>1 Reception</Bulletpoint>
-				<Bulletpoint>2 Bathrooms</Bulletpoint>
+				<Bulletpoint>1 Bathroom</Bulletpoint>
 				<Bulletpoint>Energy Rating : D</Bulletpoint>
 				<Bulletpoint>Unfurnished</Bulletpoint>
 				<Bulletpoint>Shower</Bulletpoint>
 				<Bulletpoint>Washing Machine</Bulletpoint>
 				<Bulletpoint>Dishwasher</Bulletpoint>
-			</Bulletpoints><Rooms></Rooms><Nearbyamenities></Nearbyamenities><Events>
+			</Bulletpoints><Rooms>
+				<Room>
+					<Title>Kitchen</Title>
+					<Location></Location>
+					<Description></Description>
+					<Imperial1>0.00</Imperial1>
+					<Imperial2>0.00</Imperial2>
+					<Metric1>0.00</Metric1>
+					<Metric2>0.00</Metric2>
+				</Room>
+				<Room>
+					<Title>Living/Dining Room</Title>
+					<Location></Location>
+					<Description></Description>
+					<Imperial1>0.00</Imperial1>
+					<Imperial2>0.00</Imperial2>
+					<Metric1>0.00</Metric1>
+					<Metric2>0.00</Metric2>
+				</Room>
+				<Room>
+					<Title>Bedroom 1</Title>
+					<Location></Location>
+					<Description></Description>
+					<Imperial1>0.00</Imperial1>
+					<Imperial2>0.00</Imperial2>
+					<Metric1>0.00</Metric1>
+					<Metric2>0.00</Metric2>
+				</Room>
+				<Room>
+					<Title>Bedroom 2</Title>
+					<Location></Location>
+					<Description></Description>
+					<Imperial1>0.00</Imperial1>
+					<Imperial2>0.00</Imperial2>
+					<Metric1>0.00</Metric1>
+					<Metric2>0.00</Metric2>
+				</Room>
+				<Room>
+					<Title>Bathroom</Title>
+					<Location></Location>
+					<Description></Description>
+					<Imperial1>0.00</Imperial1>
+					<Imperial2>0.00</Imperial2>
+					<Metric1>0.00</Metric1>
+					<Metric2>0.00</Metric2>
+				</Room>
+			</Rooms>
+			<Nearbyamenities></Nearbyamenities><Events>
 			</Events></Property>
 		<Property>
 			<Rentorbuy>1.00</Rentorbuy>
-			<Refnumber>1147.00</Refnumber>
-			<Number>Flat C, 5</Number>
-			<Street>Amhurst Road</Street>
+			<Refnumber>1181.00</Refnumber>
+			<Number>2nd Floor Flat, Flat B</Number>
+			<Street>7 Great Queen Street</Street>
 			<Address3></Address3>
 			<Address4>London</Address4>
-			<Postcode>E8 1LL</Postcode>
-			<Area>Hackney</Area>
+			<Postcode>WC2B 5DG</Postcode>
+			<Area>Holborn</Area>
 			<Tube></Tube>
 			<Type Commercial="False">Flat</Type>
 			<Beds>0.00</Beds>
@@ -100,17 +834,17 @@
 			<Parking>False</Parking>
 			<Garden>False</Garden>
 			<Balcony>False</Balcony>
-			<Shower>False</Shower>
+			<Shower>True</Shower>
 			<Sep_wc>False</Sep_wc>
-			<Washmachine>False</Washmachine>
+			<Washmachine>True</Washmachine>
 			<Dishwasher>False</Dishwasher>
 			<Burglaralarm>False</Burglaralarm>
 			<Petsallowed>False</Petsallowed>
 			<Smokersallowed>False</Smokersallowed>
 			<Floor></Floor>
-			<Heating>GCH</Heating>
-			<Available>04/10/2019</Available>
-			<Status LetByUs="True" SoldByUs="False">Unavailable</Status>
+			<Heating>Electric</Heating>
+			<Available>04/07/2019</Available>
+			<Status LetByUs="False" SoldByUs="False">Available</Status>
 			<Servicecharges></Servicecharges>
 			<Leaselength>0.00</Leaselength>
 			<Shortlet>False</Shortlet>
@@ -118,196 +852,107 @@
 			<Studentyear>False</Studentyear>
 			<Sharedcomm></Sharedcomm>
 			<Dssallowed>False</Dssallowed>
-			<Price Per="Month" Qualifier="1">1387</Price>
-			<Rent Qualifier="1" Period="Month">1387</Rent>
+			<Price Per="Week" Qualifier="1">545</Price>
+			<Rent Qualifier="1" Period="Week">545</Rent>
 			<Saleprice></Saleprice>
-			<Tenantfees><![CDATA[ + other fees may apply.
+			<Tenantfees><![CDATA[
+We require a Holding Deposit equal to 1 week&#39;s rent (approx &#163;545.00) to secure the property. This holding deposit will be used towards the security deposit and rent in advance if the tenancy proceeds.
+
+This property requires a Security Deposit of 5 week&#39;s rent (approx  &#163;2725.00) 
+
+
+The following fees may also be charged during your tenancy
+
+Lost/replacement keys/security fobs
+Rent arrears fees/charges
+Change of tenancy
+Early termination fee
+
 ]]></Tenantfees>
 			<Condition>0.00</Condition>
 			<Age></Age>
-			<Description><![CDATA[]]></Description>
-			<Comments><![CDATA[]]></Comments>
+			<Description><![CDATA[A modern two double bedroom second floor flat completed to a high specification, located a few moments walk to Covent Garden or Holborn tube stations. Available for a long term rental from 4th July 2019.]]></Description>
+			<Comments><![CDATA[Comprising of:-<BR/><BR/>Two spacious double bedrooms with grey coloured carpet <BR/>Modern fully fitted kitchen incl. full size fridge/freezer & combined washer/dryer<BR/>Reception room<BR/>Shower room incl. heated towel rail <BR/>Wooden flooring to reception and kitchen<BR/><BR/>Ideally located in the heart of London benefiting easy access to the high-end shops, bar & restaurants. Only a few moments walk to Holborn & Convent Garden tube stations.<BR/><BR/>This property is available 4th July 2019, offered unfurnished and for a long term ren]]></Comments>
 			<Strapline><![CDATA[Studio]]></Strapline>
 			<Map></Map>
-			<Floorplan></Floorplan>
-			<Url>?1147</Url>
+			<Floorplan>_1181_P.jpg</Floorplan>
+			<Url>?1181</Url>
 			<Created>16/10/2018</Created>
 			<Managed>True</Managed>
-			<Epc>_1147_EPC.jpg</Epc>
+			<Epc>_1181_EPC.jpg</Epc>
 			<Branch></Branch>
 			<Branchtel></Branchtel>
 			<Evt></Evt>
 			<Featured>False</Featured>
 			<Brochure></Brochure>
-			<Gloc>51.5471206363435,-0.0563033196428364</Gloc>
+			<Gloc>51.5160272225872,-0.120755041548744</Gloc>
 			<Nearbyamenities></Nearbyamenities>
 			<Categoryid>0.00</Categoryid>
 			<Negotiatorname></Negotiatorname>
 			<Negotiatoremail></Negotiatoremail>
 			<Negotiatormobile></Negotiatormobile>
 			<Thoughts><![CDATA[]]></Thoughts>
-			<Media><Item Caption="">_1147_01.jpg</Item><Item Caption="">_1147_02.jpg</Item><Item Caption="">_1147_03.jpg</Item><Item Caption="">_1147_04.jpg</Item><Item Caption="">_1147_05.jpg</Item><Item Caption="">_1147_06.jpg</Item></Media><Other><Item Caption="">_1147_01.jpg</Item><Item Caption="">_1147_02.jpg</Item><Item Caption="">_1147_03.jpg</Item><Item Caption="">_1147_04.jpg</Item><Item Caption="">_1147_05.jpg</Item><Item Caption="">_1147_06.jpg</Item></Other><Bulletpoints><Bulletpoint>Flat</Bulletpoint>
+			<Media><Item Caption="">_1181_01.jpg</Item><Item Caption="">_1181_02.jpg</Item><Item Caption="">_1181_03.jpg</Item><Item Caption="">_1181_04.jpg</Item><Item Caption="">_1181_05.jpg</Item></Media><Other><Item Caption="">_1181_01.jpg</Item><Item Caption="">_1181_02.jpg</Item><Item Caption="">_1181_03.jpg</Item><Item Caption="">_1181_04.jpg</Item><Item Caption="">_1181_05.jpg</Item></Other><Bulletpoints><Bulletpoint>Flat</Bulletpoint>
 				<Bulletpoint>Studio Flat</Bulletpoint>
-			</Bulletpoints><Rooms></Rooms><Nearbyamenities></Nearbyamenities><Events>
+				<Bulletpoint>Energy Rating : D</Bulletpoint>
+				<Bulletpoint>Shower</Bulletpoint>
+				<Bulletpoint>Washing Machine</Bulletpoint>
+			</Bulletpoints><Rooms>
+				<Room>
+					<Title>Bedroom 2</Title>
+					<Location></Location>
+					<Description></Description>
+					<Imperial1>12.76</Imperial1>
+					<Imperial2>7.74</Imperial2>
+					<Metric1>3.89</Metric1>
+					<Metric2>2.36</Metric2>
+				</Room>
+				<Room>
+					<Title>Bedroom 1</Title>
+					<Location></Location>
+					<Description></Description>
+					<Imperial1>13.16</Imperial1>
+					<Imperial2>8.01</Imperial2>
+					<Metric1>4.01</Metric1>
+					<Metric2>2.44</Metric2>
+				</Room>
+				<Room>
+					<Title>Living Room</Title>
+					<Location></Location>
+					<Description></Description>
+					<Imperial1>11.91</Imperial1>
+					<Imperial2>7.71</Imperial2>
+					<Metric1>3.63</Metric1>
+					<Metric2>2.35</Metric2>
+				</Room>
+				<Room>
+					<Title>Kitchen</Title>
+					<Location></Location>
+					<Description></Description>
+					<Imperial1>13.12</Imperial1>
+					<Imperial2>7.71</Imperial2>
+					<Metric1>4.00</Metric1>
+					<Metric2>2.35</Metric2>
+				</Room>
+			</Rooms>
+			<Nearbyamenities></Nearbyamenities><Events>
 			</Events></Property>
 		<Property>
 			<Rentorbuy>1.00</Rentorbuy>
-			<Refnumber>1142.00</Refnumber>
-			<Number>Flat 1a, 1</Number>
-			<Street>Amhurst Road</Street>
+			<Refnumber>1385.00</Refnumber>
+			<Number>Flat 7, Bentley Court 72/74</Number>
+			<Street>Kensington Gardens Sq</Street>
 			<Address3></Address3>
 			<Address4>London</Address4>
-			<Postcode>E8 1LL</Postcode>
-			<Area>Hackney</Area>
-			<Tube></Tube>
-			<Type Commercial="False">Flat</Type>
-			<Beds>0.00</Beds>
-			<Singles>0.00</Singles>
-			<Doubles>0.00</Doubles>
-			<Baths>0.00</Baths>
-			<Receps>0.00</Receps>
-			<Furnished>0.00</Furnished>
-			<Garage>False</Garage>
-			<Parking>False</Parking>
-			<Garden>False</Garden>
-			<Balcony>False</Balcony>
-			<Shower>False</Shower>
-			<Sep_wc>False</Sep_wc>
-			<Washmachine>False</Washmachine>
-			<Dishwasher>False</Dishwasher>
-			<Burglaralarm>False</Burglaralarm>
-			<Petsallowed>False</Petsallowed>
-			<Smokersallowed>False</Smokersallowed>
-			<Floor></Floor>
-			<Heating>GCH</Heating>
-			<Available>03/06/2019</Available>
-			<Status LetByUs="True" SoldByUs="False">Unavailable</Status>
-			<Servicecharges></Servicecharges>
-			<Leaselength>0.00</Leaselength>
-			<Shortlet>False</Shortlet>
-			<Longlet>False</Longlet>
-			<Studentyear>False</Studentyear>
-			<Sharedcomm></Sharedcomm>
-			<Dssallowed>False</Dssallowed>
-			<Price Per="Month" Qualifier="1">1257</Price>
-			<Rent Qualifier="1" Period="Month">1257</Rent>
-			<Saleprice></Saleprice>
-			<Tenantfees><![CDATA[ + other fees may apply.
-]]></Tenantfees>
-			<Condition>0.00</Condition>
-			<Age></Age>
-			<Description><![CDATA[]]></Description>
-			<Comments><![CDATA[]]></Comments>
-			<Strapline><![CDATA[Studio]]></Strapline>
-			<Map></Map>
-			<Floorplan></Floorplan>
-			<Url>?1142</Url>
-			<Created>16/10/2018</Created>
-			<Managed>True</Managed>
-			<Epc>_1142_EPC.jpg</Epc>
-			<Branch></Branch>
-			<Branchtel></Branchtel>
-			<Evt></Evt>
-			<Featured>False</Featured>
-			<Brochure></Brochure>
-			<Gloc>51.5471206363435,-0.0563033196428364</Gloc>
-			<Nearbyamenities></Nearbyamenities>
-			<Categoryid>0.00</Categoryid>
-			<Negotiatorname></Negotiatorname>
-			<Negotiatoremail></Negotiatoremail>
-			<Negotiatormobile></Negotiatormobile>
-			<Thoughts><![CDATA[]]></Thoughts>
-			<Media><Item Caption="">_1142_01.jpg</Item><Item Caption="">_1142_02.jpg</Item><Item Caption="">_1142_03.jpg</Item><Item Caption="">_1142_04.jpg</Item><Item Caption="">_1142_05.jpg</Item></Media><Other><Item Caption="">_1142_01.jpg</Item><Item Caption="">_1142_02.jpg</Item><Item Caption="">_1142_03.jpg</Item><Item Caption="">_1142_04.jpg</Item><Item Caption="">_1142_05.jpg</Item></Other><Bulletpoints><Bulletpoint>Flat</Bulletpoint>
-				<Bulletpoint>Studio Flat</Bulletpoint>
-			</Bulletpoints><Rooms></Rooms><Nearbyamenities></Nearbyamenities><Events>
-			</Events></Property>
-		<Property>
-			<Rentorbuy>1.00</Rentorbuy>
-			<Refnumber>1143.00</Refnumber>
-			<Number>Flat 1b, 1</Number>
-			<Street>Amhurst Road</Street>
-			<Address3></Address3>
-			<Address4>London</Address4>
-			<Postcode>E8 1LL</Postcode>
-			<Area>Hackney</Area>
-			<Tube></Tube>
-			<Type Commercial="False">Flat</Type>
-			<Beds>0.00</Beds>
-			<Singles>0.00</Singles>
-			<Doubles>0.00</Doubles>
-			<Baths>0.00</Baths>
-			<Receps>0.00</Receps>
-			<Furnished>0.00</Furnished>
-			<Garage>False</Garage>
-			<Parking>False</Parking>
-			<Garden>False</Garden>
-			<Balcony>False</Balcony>
-			<Shower>False</Shower>
-			<Sep_wc>False</Sep_wc>
-			<Washmachine>False</Washmachine>
-			<Dishwasher>False</Dishwasher>
-			<Burglaralarm>False</Burglaralarm>
-			<Petsallowed>False</Petsallowed>
-			<Smokersallowed>False</Smokersallowed>
-			<Floor></Floor>
-			<Heating>GCH</Heating>
-			<Available>28/07/2019</Available>
-			<Status LetByUs="True" SoldByUs="False">Unavailable</Status>
-			<Servicecharges></Servicecharges>
-			<Leaselength>0.00</Leaselength>
-			<Shortlet>False</Shortlet>
-			<Longlet>False</Longlet>
-			<Studentyear>False</Studentyear>
-			<Sharedcomm></Sharedcomm>
-			<Dssallowed>False</Dssallowed>
-			<Price Per="Month" Qualifier="1">1386</Price>
-			<Rent Qualifier="1" Period="Month">1386</Rent>
-			<Saleprice></Saleprice>
-			<Tenantfees><![CDATA[ + other fees may apply.
-]]></Tenantfees>
-			<Condition>0.00</Condition>
-			<Age></Age>
-			<Description><![CDATA[]]></Description>
-			<Comments><![CDATA[]]></Comments>
-			<Strapline><![CDATA[Studio]]></Strapline>
-			<Map></Map>
-			<Floorplan></Floorplan>
-			<Url>?1143</Url>
-			<Created>16/10/2018</Created>
-			<Managed>True</Managed>
-			<Epc>_1143_EPC.jpg</Epc>
-			<Branch></Branch>
-			<Branchtel></Branchtel>
-			<Evt></Evt>
-			<Featured>False</Featured>
-			<Brochure></Brochure>
-			<Gloc>,</Gloc>
-			<Nearbyamenities></Nearbyamenities>
-			<Categoryid>0.00</Categoryid>
-			<Negotiatorname></Negotiatorname>
-			<Negotiatoremail></Negotiatoremail>
-			<Negotiatormobile></Negotiatormobile>
-			<Thoughts><![CDATA[]]></Thoughts>
-			<Media><Item Caption="">_1143_01.jpg</Item><Item Caption="">_1143_02.jpg</Item><Item Caption="">_1143_03.jpg</Item><Item Caption="">_1143_04.jpg</Item><Item Caption="">_1143_05.jpg</Item><Item Caption="">_1143_06.jpg</Item></Media><Other><Item Caption="">_1143_01.jpg</Item><Item Caption="">_1143_02.jpg</Item><Item Caption="">_1143_03.jpg</Item><Item Caption="">_1143_04.jpg</Item><Item Caption="">_1143_05.jpg</Item><Item Caption="">_1143_06.jpg</Item></Other><Bulletpoints><Bulletpoint>Flat</Bulletpoint>
-				<Bulletpoint>Studio Flat</Bulletpoint>
-			</Bulletpoints><Rooms></Rooms><Nearbyamenities></Nearbyamenities><Events>
-			</Events></Property>
-		<Property>
-			<Rentorbuy>1.00</Rentorbuy>
-			<Refnumber>1281.00</Refnumber>
-			<Number>12</Number>
-			<Street>Queens Mews</Street>
-			<Address3></Address3>
-			<Address4>London</Address4>
-			<Postcode>W2 4BZ</Postcode>
+			<Postcode>W2 4DQ</Postcode>
 			<Area>Bayswater</Area>
-			<Tube></Tube>
-			<Type Commercial="False">House</Type>
-			<Beds>0.00</Beds>
-			<Singles>0.00</Singles>
-			<Doubles>0.00</Doubles>
-			<Baths>0.00</Baths>
-			<Receps>0.00</Receps>
+			<Tube>Bayswater</Tube>
+			<Type Commercial="False">Flat</Type>
+			<Beds>2.00</Beds>
+			<Singles>1.00</Singles>
+			<Doubles>1.00</Doubles>
+			<Baths>1.00</Baths>
+			<Receps>1.00</Receps>
 			<Furnished>0.00</Furnished>
 			<Garage>False</Garage>
 			<Parking>False</Parking>
@@ -322,8 +967,8 @@
 			<Smokersallowed>False</Smokersallowed>
 			<Floor></Floor>
 			<Heating>GCH</Heating>
-			<Available>16/03/2019</Available>
-			<Status LetByUs="True" SoldByUs="False">Unavailable</Status>
+			<Available>13/06/2019</Available>
+			<Status LetByUs="False" SoldByUs="False">Available</Status>
 			<Servicecharges></Servicecharges>
 			<Leaselength>0.00</Leaselength>
 			<Shortlet>False</Shortlet>
@@ -331,37 +976,352 @@
 			<Studentyear>False</Studentyear>
 			<Sharedcomm></Sharedcomm>
 			<Dssallowed>False</Dssallowed>
-			<Price Per="Month" Qualifier="1">4009</Price>
-			<Rent Qualifier="1" Period="Month">4009</Rent>
+			<Price Per="Month" Qualifier="1">1842</Price>
+			<Rent Qualifier="1" Period="Month">1842</Rent>
 			<Saleprice></Saleprice>
-			<Tenantfees><![CDATA[ + other fees may apply.
+			<Tenantfees><![CDATA[
+We require a Holding Deposit equal to 1 week&#39;s rent (approx &#163;425.08) to secure the property. This holding deposit will be used towards the security deposit and rent in advance if the tenancy proceeds.
+
+This property requires a Security Deposit of 5 week&#39;s rent (approx  &#163;2125.38) 
+
+
+The following fees may also be charged during your tenancy
+
+Lost/replacement keys/security fobs
+Rent arrears fees/charges
+Change of tenancy
+Early termination fee
+
 ]]></Tenantfees>
 			<Condition>0.00</Condition>
 			<Age></Age>
-			<Description><![CDATA[]]></Description>
-			<Comments><![CDATA[]]></Comments>
+			<Description><![CDATA[A newly redecorated, modern two double bedroom flat in a small purpose built building (with lift), located in this popular garden square, within a moments walk of Bayswater & Queensway stations. Offered unfurnished, available immediately.]]></Description>
+			<Comments><![CDATA[A newly redecorated, modern two double bedroom flat Comprising of:-<BR/><BR/>Modern Fully Fitted & Equipped Kitchen<BR/>Open Plan Reception Room<BR/>Two Double Bedrooms with neutral coloured carpets<BR/>Bathroom with Shower above Bath<BR/>Access to Garden Square<BR/><BR/><BR/>Offered unfurnished, available immediately.]]></Comments>
 			<Strapline><![CDATA[Studio]]></Strapline>
 			<Map></Map>
-			<Floorplan></Floorplan>
-			<Url>?1281</Url>
+			<Floorplan>_1385_P.jpg</Floorplan>
+			<Url>?1385</Url>
 			<Created>16/10/2018</Created>
 			<Managed>True</Managed>
-			<Epc>_1281_EPC.jpg</Epc>
+			<Epc>_1385_EPC.jpg</Epc>
 			<Branch></Branch>
 			<Branchtel></Branchtel>
 			<Evt></Evt>
 			<Featured>False</Featured>
 			<Brochure></Brochure>
-			<Gloc>51.5133169725267,-0.189712858990898</Gloc>
+			<Gloc>51.514484609228,-0.189623331126212</Gloc>
 			<Nearbyamenities></Nearbyamenities>
 			<Categoryid>0.00</Categoryid>
 			<Negotiatorname></Negotiatorname>
 			<Negotiatoremail></Negotiatoremail>
 			<Negotiatormobile></Negotiatormobile>
 			<Thoughts><![CDATA[]]></Thoughts>
-			<Media><Item Caption="">_1281_01.jpg</Item><Item Caption="">_1281_02.jpg</Item><Item Caption="">_1281_03.jpg</Item><Item Caption="">_1281_04.jpg</Item><Item Caption="">_1281_05.jpg</Item><Item Caption="">_1281_06.jpg</Item><Item Caption="">_1281_07.jpg</Item><Item Caption="">_1281_08.jpg</Item><Item Caption="">_1281_09.jpg</Item><Item Caption="">_1281_10.jpg</Item><Item Caption="">_1281_11.jpg</Item></Media><Other><Item Caption="">_1281_01.jpg</Item><Item Caption="">_1281_02.jpg</Item><Item Caption="">_1281_03.jpg</Item><Item Caption="">_1281_04.jpg</Item><Item Caption="">_1281_05.jpg</Item><Item Caption="">_1281_06.jpg</Item><Item Caption="">_1281_07.jpg</Item><Item Caption="">_1281_08.jpg</Item><Item Caption="">_1281_09.jpg</Item><Item Caption="">_1281_10.jpg</Item><Item Caption="">_1281_11.jpg</Item></Other><Bulletpoints><Bulletpoint>House</Bulletpoint>
-				<Bulletpoint>Studio Flat</Bulletpoint>
-			</Bulletpoints><Rooms></Rooms><Nearbyamenities></Nearbyamenities><Events>
+			<Media><Item Caption="">_1385_01.jpg</Item><Item Caption="">_1385_02.jpg</Item><Item Caption="">_1385_03.jpg</Item><Item Caption="">_1385_04.jpg</Item><Item Caption="">_1385_05.jpg</Item><Item Caption="">_1385_06.jpg</Item></Media><Other><Item Caption="">_1385_01.jpg</Item><Item Caption="">_1385_02.jpg</Item><Item Caption="">_1385_03.jpg</Item><Item Caption="">_1385_04.jpg</Item><Item Caption="">_1385_05.jpg</Item><Item Caption="">_1385_06.jpg</Item></Other><Bulletpoints><Bulletpoint>Flat</Bulletpoint>
+				<Bulletpoint>2 Beds</Bulletpoint>
+				<Bulletpoint>1 Reception</Bulletpoint>
+				<Bulletpoint>1 Bathroom</Bulletpoint>
+				<Bulletpoint>Energy Rating : C</Bulletpoint>
+				<Bulletpoint>Council Tax Band D</Bulletpoint>
+			</Bulletpoints><Rooms>
+				<Room>
+					<Title>Living/Dining Room</Title>
+					<Location></Location>
+					<Description></Description>
+					<Imperial1>15.78</Imperial1>
+					<Imperial2>10.89</Imperial2>
+					<Metric1>4.81</Metric1>
+					<Metric2>3.32</Metric2>
+				</Room>
+				<Room>
+					<Title>Bedroom 1</Title>
+					<Location></Location>
+					<Description></Description>
+					<Imperial1>11.58</Imperial1>
+					<Imperial2>7.81</Imperial2>
+					<Metric1>3.53</Metric1>
+					<Metric2>2.38</Metric2>
+				</Room>
+				<Room>
+					<Title>Bedroom 2</Title>
+					<Location></Location>
+					<Description></Description>
+					<Imperial1>8.01</Imperial1>
+					<Imperial2>10.79</Imperial2>
+					<Metric1>2.44</Metric1>
+					<Metric2>3.29</Metric2>
+				</Room>
+				<Room>
+					<Title>Bathroom</Title>
+					<Location></Location>
+					<Description></Description>
+					<Imperial1>0.00</Imperial1>
+					<Imperial2>0.00</Imperial2>
+					<Metric1>0.00</Metric1>
+					<Metric2>0.00</Metric2>
+				</Room>
+			</Rooms>
+			<Nearbyamenities></Nearbyamenities><Events>
+			</Events></Property>
+		<Property>
+			<Rentorbuy>1.00</Rentorbuy>
+			<Refnumber>1180.00</Refnumber>
+			<Number>1st Floor Flat, Flat A</Number>
+			<Street>7 Great Queen Street</Street>
+			<Address3></Address3>
+			<Address4>London</Address4>
+			<Postcode>WC2B 5DG</Postcode>
+			<Area>Holborn</Area>
+			<Tube>Bayswater</Tube>
+			<Type Commercial="False">Flat</Type>
+			<Beds>2.00</Beds>
+			<Singles>0.00</Singles>
+			<Doubles>2.00</Doubles>
+			<Baths>1.00</Baths>
+			<Receps>0.00</Receps>
+			<Furnished>2.00</Furnished>
+			<Garage>False</Garage>
+			<Parking>False</Parking>
+			<Garden>False</Garden>
+			<Balcony>False</Balcony>
+			<Shower>True</Shower>
+			<Sep_wc>False</Sep_wc>
+			<Washmachine>True</Washmachine>
+			<Dishwasher>False</Dishwasher>
+			<Burglaralarm>False</Burglaralarm>
+			<Petsallowed>False</Petsallowed>
+			<Smokersallowed>False</Smokersallowed>
+			<Floor>1</Floor>
+			<Heating>ELECTRIC</Heating>
+			<Available>12/07/2019</Available>
+			<Status LetByUs="False" SoldByUs="False">Available</Status>
+			<Servicecharges></Servicecharges>
+			<Leaselength>0.00</Leaselength>
+			<Shortlet>False</Shortlet>
+			<Longlet>False</Longlet>
+			<Studentyear>False</Studentyear>
+			<Sharedcomm></Sharedcomm>
+			<Dssallowed>False</Dssallowed>
+			<Price Per="Week" Qualifier="1">565</Price>
+			<Rent Qualifier="1" Period="Week">565</Rent>
+			<Saleprice></Saleprice>
+			<Tenantfees><![CDATA[
+We require a Holding Deposit equal to 1 week&#39;s rent (approx &#163;565.00) to secure the property. This holding deposit will be used towards the security deposit and rent in advance if the tenancy proceeds.
+
+This property requires a Security Deposit of 5 week&#39;s rent (approx  &#163;2825.00) 
+
+
+The following fees may also be charged during your tenancy
+
+Lost/replacement keys/security fobs
+Rent arrears fees/charges
+Change of tenancy
+Early termination fee
+
+]]></Tenantfees>
+			<Condition>0.00</Condition>
+			<Age></Age>
+			<Description><![CDATA[Recently decorated, modern two double bedroom first floor flat completed to a high specification, located a few moments walk to Covent Garden or Holborn tube stations - available from 12th July 2019]]></Description>
+			<Comments><![CDATA[Comprising:<BR/><BR/>Two double bedrooms with grey coloured carpets<BR/>Modern fully fitted & equipped kitchen incl. full size fridge/freezer & combined washer/dryer<BR/>Large reception room with wooden flooring leading from the kitchen<BR/>Bathroom with shower over bath incl. heated towel rail<BR/>Utility/Store cupboard<BR/><BR/>Available 12th July 2019, offered unfurnished for a long term rental.<BR/><BR/>Ideally located in the heart of London benefiting easy access to the high-end shops, bar & restaurants. Only a few moments walk to Holborn & Convent Garden tube stations]]></Comments>
+			<Strapline><![CDATA[2 Bed Unfurnished Flat]]></Strapline>
+			<Map></Map>
+			<Floorplan>_1180_P.jpg</Floorplan>
+			<Url>?1180</Url>
+			<Created>16/10/2018</Created>
+			<Managed>True</Managed>
+			<Epc>_1180_EPC.jpg</Epc>
+			<Branch></Branch>
+			<Branchtel></Branchtel>
+			<Evt></Evt>
+			<Featured>False</Featured>
+			<Brochure></Brochure>
+			<Gloc>51.5160272225872,-0.120755041548744</Gloc>
+			<Nearbyamenities></Nearbyamenities>
+			<Categoryid>0.00</Categoryid>
+			<Negotiatorname></Negotiatorname>
+			<Negotiatoremail></Negotiatoremail>
+			<Negotiatormobile></Negotiatormobile>
+			<Thoughts><![CDATA[]]></Thoughts>
+			<Media><Item Caption="">_1180_01.jpg</Item><Item Caption="">_1180_02.jpg</Item><Item Caption="">_1180_03.jpg</Item><Item Caption="">_1180_04.jpg</Item><Item Caption="">_1180_05.jpg</Item><Item Caption="">_1180_06.jpg</Item></Media><Other><Item Caption="">_1180_01.jpg</Item><Item Caption="">_1180_02.jpg</Item><Item Caption="">_1180_03.jpg</Item><Item Caption="">_1180_04.jpg</Item><Item Caption="">_1180_05.jpg</Item><Item Caption="">_1180_06.jpg</Item></Other><Bulletpoints><Bulletpoint>Flat</Bulletpoint>
+				<Bulletpoint>2 Beds</Bulletpoint>
+				<Bulletpoint>1 Bathroom</Bulletpoint>
+				<Bulletpoint>Unfurnished</Bulletpoint>
+				<Bulletpoint>Shower</Bulletpoint>
+				<Bulletpoint>Washing Machine</Bulletpoint>
+			</Bulletpoints><Rooms>
+				<Room>
+					<Title>Kitchen</Title>
+					<Location></Location>
+					<Description></Description>
+					<Imperial1>15.26</Imperial1>
+					<Imperial2>7.81</Imperial2>
+					<Metric1>4.65</Metric1>
+					<Metric2>2.38</Metric2>
+				</Room>
+				<Room>
+					<Title>Living/Dining Room</Title>
+					<Location></Location>
+					<Description></Description>
+					<Imperial1>0.00</Imperial1>
+					<Imperial2>0.00</Imperial2>
+					<Metric1>0.00</Metric1>
+					<Metric2>0.00</Metric2>
+				</Room>
+				<Room>
+					<Title>Bedroom 1</Title>
+					<Location></Location>
+					<Description></Description>
+					<Imperial1>13.88</Imperial1>
+					<Imperial2>9.51</Imperial2>
+					<Metric1>4.23</Metric1>
+					<Metric2>2.90</Metric2>
+				</Room>
+				<Room>
+					<Title>Bedroom 2</Title>
+					<Location></Location>
+					<Description></Description>
+					<Imperial1>13.88</Imperial1>
+					<Imperial2>7.41</Imperial2>
+					<Metric1>4.23</Metric1>
+					<Metric2>2.26</Metric2>
+				</Room>
+				<Room>
+					<Title>Bathroom</Title>
+					<Location></Location>
+					<Description></Description>
+					<Imperial1>8.14</Imperial1>
+					<Imperial2>6.36</Imperial2>
+					<Metric1>2.48</Metric1>
+					<Metric2>1.94</Metric2>
+				</Room>
+				<Room>
+					<Title>Living Room</Title>
+					<Location></Location>
+					<Description></Description>
+					<Imperial1>15.35</Imperial1>
+					<Imperial2>12.34</Imperial2>
+					<Metric1>4.68</Metric1>
+					<Metric2>3.76</Metric2>
+				</Room>
+			</Rooms>
+			<Nearbyamenities></Nearbyamenities><Events>
+			</Events></Property>
+		<Property>
+			<Rentorbuy>1.00</Rentorbuy>
+			<Refnumber>1178.00</Refnumber>
+			<Number>2nd Floor Flat, 58</Number>
+			<Street>Parker Street</Street>
+			<Address3></Address3>
+			<Address4>London</Address4>
+			<Postcode>WC2B 5PZ</Postcode>
+			<Area>Holborn</Area>
+			<Tube></Tube>
+			<Type Commercial="False">Flat</Type>
+			<Beds>1.00</Beds>
+			<Singles>0.00</Singles>
+			<Doubles>1.00</Doubles>
+			<Baths>1.00</Baths>
+			<Receps>1.00</Receps>
+			<Furnished>2.00</Furnished>
+			<Garage>False</Garage>
+			<Parking>False</Parking>
+			<Garden>False</Garden>
+			<Balcony>False</Balcony>
+			<Shower>True</Shower>
+			<Sep_wc>False</Sep_wc>
+			<Washmachine>True</Washmachine>
+			<Dishwasher>True</Dishwasher>
+			<Burglaralarm>False</Burglaralarm>
+			<Petsallowed>False</Petsallowed>
+			<Smokersallowed>False</Smokersallowed>
+			<Floor></Floor>
+			<Heating>GCH</Heating>
+			<Available>17/06/2019</Available>
+			<Status LetByUs="False" SoldByUs="False">Available</Status>
+			<Servicecharges></Servicecharges>
+			<Leaselength>0.00</Leaselength>
+			<Shortlet>False</Shortlet>
+			<Longlet>False</Longlet>
+			<Studentyear>False</Studentyear>
+			<Sharedcomm></Sharedcomm>
+			<Dssallowed>False</Dssallowed>
+			<Price Per="Month" Qualifier="1">2015</Price>
+			<Rent Qualifier="1" Period="Month">2015</Rent>
+			<Saleprice></Saleprice>
+			<Tenantfees><![CDATA[
+We require a Holding Deposit equal to 1 week&#39;s rent (approx &#163;465.00) to secure the property. This holding deposit will be used towards the security deposit and rent in advance if the tenancy proceeds.
+
+This property requires a Security Deposit of 5 week&#39;s rent (approx  &#163;2325.00) 
+
+
+The following fees may also be charged during your tenancy
+
+Lost/replacement keys/security fobs
+Rent arrears fees/charges
+Change of tenancy
+Early termination fee
+
+]]></Tenantfees>
+			<Condition>0.00</Condition>
+			<Age></Age>
+			<Description><![CDATA[An extremely well presented spacious second floor one double bedroom flat located a few moments from Holborn tube station & close to the many amenities Covent Garden has to offer - available 17th June 2019]]></Description>
+			<Comments><![CDATA[Comprising of:-<BR/><BR/>- Spacious double bedroom incl. extensive fitted wardrobes with neutral coloured carpet<BR/>- Fully fitted & equipped kitchen incl. full size fridge/freezer, dishwasher & combined washer/dryer<BR/>- Open plan large reception with dining area with wooden flooring throughout<BR/>- Bathroom with shower over bath incl. heated towel rail<BR/><BR/>This property is available 17th June 2019, offered unfurnished for a long term rental.]]></Comments>
+			<Strapline><![CDATA[1 Bed Unfurnished Flat]]></Strapline>
+			<Map></Map>
+			<Floorplan></Floorplan>
+			<Url>?1178</Url>
+			<Created>16/10/2018</Created>
+			<Managed>True</Managed>
+			<Epc></Epc>
+			<Branch></Branch>
+			<Branchtel></Branchtel>
+			<Evt></Evt>
+			<Featured>False</Featured>
+			<Brochure></Brochure>
+			<Gloc>51.516368004152,-0.120314452435603</Gloc>
+			<Nearbyamenities></Nearbyamenities>
+			<Categoryid>0.00</Categoryid>
+			<Negotiatorname></Negotiatorname>
+			<Negotiatoremail></Negotiatoremail>
+			<Negotiatormobile></Negotiatormobile>
+			<Thoughts><![CDATA[]]></Thoughts>
+			<Media><Item Caption="">_1178_01.jpg</Item><Item Caption="">_1178_02.jpg</Item><Item Caption="">_1178_03.jpg</Item><Item Caption="">_1178_04.jpg</Item></Media><Other><Item Caption="">_1178_01.jpg</Item><Item Caption="">_1178_02.jpg</Item><Item Caption="">_1178_03.jpg</Item><Item Caption="">_1178_04.jpg</Item></Other><Bulletpoints><Bulletpoint>Flat</Bulletpoint>
+				<Bulletpoint>1 Bed</Bulletpoint>
+				<Bulletpoint>1 Reception</Bulletpoint>
+				<Bulletpoint>1 Bathroom</Bulletpoint>
+				<Bulletpoint>Unfurnished</Bulletpoint>
+				<Bulletpoint>Shower</Bulletpoint>
+				<Bulletpoint>Washing Machine</Bulletpoint>
+				<Bulletpoint>Dishwasher</Bulletpoint>
+			</Bulletpoints><Rooms>
+				<Room>
+					<Title>Living/Dining Room</Title>
+					<Location>Rear</Location>
+					<Description></Description>
+					<Imperial1>23.92</Imperial1>
+					<Imperial2>23.82</Imperial2>
+					<Metric1>7.29</Metric1>
+					<Metric2>7.26</Metric2>
+				</Room>
+				<Room>
+					<Title>Bedroom</Title>
+					<Location>Front</Location>
+					<Description></Description>
+					<Imperial1>15.32</Imperial1>
+					<Imperial2>10.93</Imperial2>
+					<Metric1>4.67</Metric1>
+					<Metric2>3.33</Metric2>
+				</Room>
+				<Room>
+					<Title>Bathroom</Title>
+					<Location></Location>
+					<Description></Description>
+					<Imperial1>0.00</Imperial1>
+					<Imperial2>0.00</Imperial2>
+					<Metric1>0.00</Metric1>
+					<Metric2>0.00</Metric2>
+				</Room>
+			</Rooms>
+			<Nearbyamenities></Nearbyamenities><Events>
 			</Events></Property>
 	</Properties>
 	<Areas>

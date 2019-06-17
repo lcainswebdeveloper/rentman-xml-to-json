@@ -19,7 +19,7 @@ class PropertyDecorator
         $this->transformed['bedrooms'] = $this->setBedRooms();
         $this->transformed['baths'] = (int)$this->setValueByKey('Baths');
         $this->transformed['receptions'] = (int)$this->setValueByKey('Receps');
-        $this->transformed['furnished'] = $this->setFurnished();
+        $this->setFurnished();
         $this->transformed['garage'] = $this->setValueByBooleanString('Garage');
         $this->transformed['parking'] = $this->setValueByBooleanString('Parking');
         $this->transformed['garden'] = $this->setValueByBooleanString('Garden');
@@ -167,9 +167,9 @@ class PropertyDecorator
             4 =>  'Available as either Furnished or Unfurnished',
         ];
         if (isset($options[$furnished])) {
-            return $options[$furnished];
+            $this->transformed['furnished'] = $options[$furnished];
         }
-        return 'Unknown';
+        $this->transformed['furnished'] = 'Unknown';
     }
     public function setBedrooms()
     {
